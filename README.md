@@ -12,11 +12,11 @@
 
 
 ### Equipe:
-- ### [Edvan De Jesus ](https://github.com/edvandejesus, "Perfil No Github")
-- ### [Vivien Fares](https://github.com/vivifares1, "Perfil No Github")
-- ### [Paulo Rogério](https://github.com, "Perfil No Github")
-- ### [Riverson](https://github.com, "Perfil No Github")
-- ### [Tatiane Tinoco](https://github.com/tatianetinoco, "Perfin No Github")
+- ### [Edvan De Jesus ](https://github.com/edvandejesus "Perfil No Github")
+- ### [Vivien Fares](https://github.com/vivifares1 "Perfil No Github")
+- ### [Paulo Rogério](https://github.com "Perfil No Github")
+- ### [Riverson](https://github.com "Perfil No Github")
+- ### [Tatiane Tinoco](https://github.com/tatianetinoco "Perfin No Github")
 
 
 
