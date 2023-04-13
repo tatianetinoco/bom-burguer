@@ -7,10 +7,64 @@
     <title>Cadastro</title>
 </head>
 <body>
+    <header>
+        <h1>Bom Burguer</h1>
+        <a href="./index.html"><img class="logo" src="./assets/img/img-logo.png" alt="Bom Burguer Logotipo"></a>
+        <nav class="menu">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./sobre.html">Sobre</a></li>
+                <li><a href="./cardapio.html">Cardápio</a></li>
+                <li><a href="link">Promoções</a></li>
+                <li><a href="./cadastro.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
     <h1>Cadastro</h1>
     <form action="">
-        <label for="nome">Nome</label>
+        <label for="nome">Nome Completo: </label>
         <input type="text" name="" id="nome">
+        <br>
+        <br>
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email">
+        <br>
+        <br>
+        <label for="telefone">Telefone: </label>
+        <input type="tel" name="telefone" id="telefone">
+        <br>
+        <br><Section>
+        <label for="endereco">Endereço Completo</label>
+        <input type="text" name="endereco" id="endereco">
+        <br>
+        <br>
+        <label for="senha">Senha :</label>
+        <input type="password" name="senha" id="senha">
+        <br>
+        <br>
+        </Section>
+        <button type="submit">Enviar</button>
     </form>
  </body>
+ <footer>
+    <section class="redes-sociais">
+        <ul>
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>LinkedIn</li>
+            <li>Twitter</li>
+        </ul>
+    </section>
+
+    <div class="news-letter">
+        <h3>
+            Inscreva-se e Receba Nossas Ofertas
+        </h3>
+        <form>
+            <input id="email" type="email">
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+</footer>
 </html>
