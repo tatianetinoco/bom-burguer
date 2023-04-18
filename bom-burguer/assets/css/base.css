@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    background-color: rgb(245, 245, 245);
+}
+
+header {
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+}
+
+.content-all{
+    margin: 0 2rem;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.header-content {
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+  }
+
+.logotipo{
+    height: 3rem;
+  }
+
+  .menu ul {
+    display: flex;
+    font-size: 1.3rem;
+    gap: 5%;
+  }
+
+  .menu ul li {
+    list-style-type: none;
+  }
+
+  .menu ul li a {
+    text-decoration: none;
+  }
+
+  .login , .carrinho {
+    height: 2rem;
+  }
+
+
+  .footer{
+    padding: 10px 0;
+    background-color: rgb(170, 170, 170);
+  }
+
+
+  .footer-content{
+    background-color: rgb(170, 170, 170);
+    display: flex;
+    gap: 10%;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 1.6;
+    padding: 2rem 0;
+    margin: 0 2rem;
+  }
+
+  .redes-sociais ul{
+    display: flex;
+    gap: 5%;
+  }
+
+  .redes-sociais h3{
+    color: #606060;
+    text-transform: uppercase;
+    margin: 0 0 1rem;
+  }
+
+  .redes-sociais ul{
+    list-style-type: none;
+  }
+
+
+  .footer-links ul{
+    list-style-type: none;
+  }
+
+  .footer-links h3{
+    color: #606060;
+    text-transform: uppercase;
+    margin: 0 0 1rem;
+  }
+
+  .footer-links ul li a{
+    color: #606060;
+    text-decoration: none;
+  }
+
+  .footer-links ul li:hover{
+    text-decoration: underline #d3d3d3;
+  }
+
+  .footer-links ul li a:hover{
+    color: #d3d3d3;
+  }
+
+  .news-letter{
+	text-align: center;
+	max-width: 500px;
+  }
+
+  .news-letter h3{
+    color: #606060;
+    text-transform: uppercase;
+    margin-bottom: 1rem ;
+  }
+
+
+  .form-content input{
+  border: 0;
+	border-radius: 5px;
+	box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+	font-size: 14px;
+	height: 42px;
+	width: 65%;
+  }
+
+  .form-content button{
+    background-image: linear-gradient(#919191, #222222);
+    font-size: 20px;
+    text-align: center;
+    width: 30%;
+    height: 42px;
+    color: rgb(231, 231, 231);
+    border-radius: 5px;
+    border: none;
+  }

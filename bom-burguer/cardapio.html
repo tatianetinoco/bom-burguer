@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cardápio</title>
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <title>Bom Burguer</title>
 </head>
 <body>
+  <section class="content-all"> 
     <header>
         <div class="header-content">
             <div class="logo"> 
-                <a href="./index.html"><img src="./assets/img/Bom Burguer Logotipo.png" alt="Bom Burguer Logotipo"></a>
+                <a href="./index.html"><img class="logotipo" src="./assets/img/Bom Burguer Logotipo.png" alt="Bom Burguer Logotipo"></a>
             </div>
 
             <div class="menu-section">
@@ -30,9 +32,10 @@
                 <a href="#"><img class="carrinho" src="./assets/img/img-carrinho.png" alt="Carrinho"></a>
             </div>
         </div>
+    </header>
+
     <main>
 
-        
         <section class="cardapio-burguer">
             <h2>Hamburguer</h2>
             <div>
@@ -201,7 +204,7 @@
                     <h3>Promoção Hamburguer Triplo</h3>
                 </div>
                 <div class="img-cardapio">
-                    <img width="200px" src="./assets/img/img-promo-um.png">
+                    <img src="./assets/img/img-promo-um.png">
                 </div>
             </div>
     
@@ -210,7 +213,7 @@
                     <h3>Promoção Hamburguer Duplo</h3>
                 </div>
                 <div class="img-cardapio">
-                    <img width="200px" src="./assets/img/img-promo-dois.png">
+                    <img src="./assets/img/img-promo-dois.png">
                 </div>
             </div>
     
@@ -219,25 +222,20 @@
                     <h3>Promoção Tamanho Família</h3>
                 </div>
                 <div class="img-cardapio">
-                    <img width="200px" src="./assets/img/img-promo-tres.png">
+                    <img src="./assets/img/img-promo-tres.png">
                 </div>
             </div>
           </section>
 
 
-            <section>
-                <h2>Peça Já o Seu!!!</h2>
-                <img width="200px" src="./assets/img/img-base.png">
-            </section>
-      
     </main>
 
-</body>
+    <footer class="footer">
 
-<footer>
-    <section class="footer-content"> 
+      <section class="footer-content"> 
 
         <div class="redes-sociais">
+            <h3>Redes Sociais</h3>
             <ul>
                 <li><a href="#" target="_blank" title="Facebook"><img src="./assets/img/img-social-fb.png" width="32px" height="32px"></a></li>
                 <li><a href="#" target="_blank" title="Instagram"><img src="./assets/img/img-social-instagram.png" width="32px" height="32px"></a></li>
@@ -248,11 +246,10 @@
         </div>
 
         <div class="footer-links">
+            <h3>Informações</h3>
             <ul>
-                <li>Lojas</li>
-                <li>imprensa</li>
-                <li>Trabalhe Conosco</li>
-                <li>Seja Um Franqueado</li>
+                <li><a href="#" target="_blank" >Trabalhe Conosco</a></li>
+                <li><a href="#" target="_blank" >Seja Um Franqueado</a></li>
             </ul>
         </div>
 
@@ -260,13 +257,17 @@
             <h3>
                 Inscreva-se e Receba Nossas Ofertas
             </h3>
-            <form>
+            <form class="form-content">
                 <input id="email" type="email" placeholder="Digite Seu E-mail">
                 <button type="submit">Enviar</button>
             </form>
         </div>
 
       </section>
-</footer>
+
+    </footer>
+
+</body>
+</section>
 
 </html>
