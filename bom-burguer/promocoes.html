@@ -4,67 +4,109 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bom Burguer</title>
+    <title>Promocoes</title>
 </head>
 <body>
     <header>
-        <h1>Bom Burguer</h1>
-        <a href="./index.html"><img class="logo" src="./assets/img/img-logo.png" alt="Bom Burguer Logotipo"></a>
-        <nav class="menu">
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./sobre.html">Sobre</a></li>
-                <li><a href="./cardapio.html">Cardápio</a></li>
-                <li><a href="./promocoes.html">Promoções</a></li>
-                <li><a href="./cadastro.html">Contato</a></li>
-            </ul>
-        </nav>
+        <div class="header-content">
+            <div class="logo"> 
+                <a href="./index.html"><img src="./assets/img/Bom Burguer Logotipo.png" alt="Bom Burguer Logotipo"></a>
+            </div>
+
+            <div class="menu-section">
+                <nav class="menu">
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./sobre.html">Sobre</a></li>
+                        <li><a href="./cardapio.html">Cardápio</a></li>
+                        <li><a href="./promocoes.html">Promoções</a></li>
+                        <li><a href="./contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div>
+                <a href="#"><img class="login" src="./assets/img/img-login.png" alt="Login"></a>
+                <a href="#"><img class="carrinho" src="./assets/img/img-carrinho.png" alt="Carrinho"></a>
+            </div>
+        </div>
     </header>
 
     <main>
-        <section class="promo-um">
-            <h3>PROMOÇÃO 1</h3>
-            <img width="400px" src="./assets/img/img-base.png">
-        </section>
+      <section class="promocoes"> 
 
-        <section class="promo-dois">
-            <h3>PROMOÇÃO DOIS</h3>
-            <img width="400px" src="./assets/img/img-base.png">
-        </section>
+        <div class="promocao-1"> 
+            <div class="titulo-promocao-1">
+                <h3>Promoção 01</h3>
+            </div>
+            <div class="img-card">
+                <img src="./assets/img/img-promo-um.png">
+            </div>
+        </div>
 
-        <section class="promo-tres">
-            <h3>PROMOÇÃO TRÊS</h3>
-            <img width="400px" src="./assets/img/img-base.png">
-        </section>
+        <div class="promocao-2"> 
+            <div class="titulo-promocao-2">
+                <h3>Promoção 02</h3>
+            </div>
+            <div class="img-card">
+                <img src="./assets/img/img-promo-dois.png">
+            </div>
+        </div>
+
+        <div class="promocao-3"> 
+            <div class="titulo-promocao-3">
+                <h3>Promoção 03</h3>
+            </div>
+            <div class="img-card">
+                <img src="./assets/img/img-promo-tres.png">
+            </div>
+        </div>
+
+       </section>
 
 
-      <section>
-        <h2>Peça Já O Seu!! </h2>
-        <img width="200px" src="./assets/img/img-base.png">
-      </section>
+       <div class="banner-content-2">
+            <div class="banner-title-2"><h2>Peça Já O Seu!!</h2></div>
+            <div class="banner-img">
+                <img width="200px" src="./assets/img/img-delivery.png">
+            </div>
+    </div>
 
     </main>
 
     <footer>
-        <section class="redes-sociais">
-            <ul>
-                <li>Facebook</li>
-                <li>Instagram</li>
-                <li>LinkedIn</li>
-                <li>Twitter</li>
-            </ul>
-        </section>
+        <section class="footer-content"> 
 
-        <div class="news-letter">
-            <h3>
-                Inscreva-se e Receba Nossas Ofertas
-            </h3>
-            <form>
-                <input id="email" type="email">
-                <button type="submit">Enviar</button>
-            </form>
-        </div>
-
+            <div class="redes-sociais">
+                <ul>
+                    <li><a href="#" target="_blank" title="Facebook"><img src="./assets/img/img-social-fb.png" width="32px" height="32px"></a></li>
+                    <li><a href="#" target="_blank" title="Instagram"><img src="./assets/img/img-social-instagram.png" width="32px" height="32px"></a></li>
+                    <li><a href="#" target="_blank" title="Linkedin"><img src="./assets/img/img-social-linkedIn.png" width="32px" height="32px"></a></li>
+                    <li><a href="#" target="_blank" title="Twitter"><img src="./assets/img/img-social-twitter.png" width="32px" height="32px"></a></li>
+                    <li><a href="#" target="_blank" title="Youtube"><img src="./assets/img/img-social-youtube.png" width="32px" height="32px"></a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-links">
+                <ul>
+                    <li>Lojas</li>
+                    <li>imprensa</li>
+                    <li>Trabalhe Conosco</li>
+                    <li>Seja Um Franqueado</li>
+                </ul>
+            </div>
+    
+            <div class="news-letter">
+                <h3>
+                    Inscreva-se e Receba Nossas Ofertas
+                </h3>
+                <form>
+                    <input id="email" type="email" placeholder="Digite Seu E-mail">
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+    
+          </section>
     </footer>
 
 </body>
