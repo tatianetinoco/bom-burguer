@@ -1,111 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
 }
 
 main{
-    background-color: rgb(245, 245, 245);
+background-color: rgb(245, 245, 245);
 }
 
 header {
-  position: -webkit-sticky; 
-  position: sticky;
-  top: 0;
+background: linear-gradient(180deg, rgba(222,145,22,1) 0%, rgba(248,171,31,1) 35%, rgba(222,145,22,1) 100%);
+height: 660px;
 }
 
 .content-all{
-    margin: 0 2rem;
-    max-width: 1280px;
-    margin: 0 auto;
+margin: 0 2rem;
+max-width: 1280px;
+margin: 0 auto;
 }
 
 .header-content {
-    background-color: lightgray;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem;
-  }
+background-color: #00000038;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 1.5rem;
+}
 
 .logotipo{
-    height: 3rem;
-  }
+height: 3rem;
+}
 
-  .menu ul {
-    display: flex;
-    font-size: 1.3rem;
-    gap: 5%;
-  }
+.menu ul {
+display: flex;
+font-size: 1.3rem;
+text-transform: uppercase;
+padding: 10px 25px;
+}
 
-  .menu ul li {
-    list-style-type: none;
-  }
+.menu ul li {
+list-style-type: none;
+}
 
-  .menu ul li a {
-    text-decoration: none;
-  }
+.menu ul li a {
+text-decoration: none;
+padding: 10px 25px;
+font-family: sans-serif;
+color: rgb(240, 240, 240);
+}
 
-  .login , .carrinho {
-    height: 2rem;
-  }
+.menu ul li a:hover {
+color: #f8ab1f;
+background: #9c1c20;
+border-radius: 5px;
+}
+
+.login , .carrinho {
+height: 1.5rem;
+}
+
+.slider{
+  list-style-type: none;
+}
+
+.slider li img{
+  margin: 0;
+  position: relative;
+  min-width: 100%;
+}
 
 
-  .footer{
-    padding: 10px 0;
-    background-color: rgb(170, 170, 170);
-  }
+
+
+.footer{
+padding: 10px 0;
+background: linear-gradient(180deg, rgba(222,145,22,1) 0%, rgba(248,171,31,1) 35%, rgba(222,145,22,1) 100%);
+}
 
 
   .footer-content{
-    background-color: rgb(170, 170, 170);
-    display: flex;
-    gap: 10%;
-    justify-content: space-between;
-    align-items: center;
-    line-height: 1.6;
-    padding: 2rem 0;
-    margin: 0 2rem;
+  display: flex;
+  gap: 10%;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 1.6;
+  padding: 2rem 0;
+  margin: 0 2rem;
   }
 
   .redes-sociais ul{
-    display: flex;
-    gap: 5%;
+  display: flex;
+  gap: 5%;
   }
 
   .redes-sociais h3{
-    color: #606060;
-    text-transform: uppercase;
-    margin: 0 0 1rem;
+  color: #606060;
+  text-transform: uppercase;
+  margin: 0 0 1rem;
   }
 
   .redes-sociais ul{
-    list-style-type: none;
+  list-style-type: none;
   }
 
+  .redes-sociais ul li a img:hover{
+  transform: scale(1.2);
+  }
 
   .footer-links ul{
-    list-style-type: none;
+  list-style-type: none;
   }
 
   .footer-links h3{
-    color: #606060;
-    text-transform: uppercase;
-    margin: 0 0 1rem;
+  color: #606060;
+  text-transform: uppercase;
+  margin: 0 0 1rem;
   }
 
   .footer-links ul li a{
-    color: #606060;
-    text-decoration: none;
+  color: #606060;
+  text-decoration: none;
   }
 
   .footer-links ul li:hover{
-    text-decoration: underline #d3d3d3;
+  text-decoration: underline #d3d3d3;
   }
 
   .footer-links ul li a:hover{
-    color: #d3d3d3;
+  color: #d3d3d3;
   }
 
   .news-letter{
@@ -114,9 +140,9 @@ header {
   }
 
   .news-letter h3{
-    color: #606060;
-    text-transform: uppercase;
-    margin-bottom: 1rem ;
+  color: #606060;
+  text-transform: uppercase;
+  margin-bottom: 1rem ;
   }
 
 
@@ -130,12 +156,12 @@ header {
   }
 
   .form-content button{
-    background-image: linear-gradient(#919191, #222222);
-    font-size: 20px;
-    text-align: center;
-    width: 30%;
-    height: 42px;
-    color: rgb(231, 231, 231);
-    border-radius: 5px;
-    border: none;
+  background-image: linear-gradient(#919191, #222222);
+  font-size: 20px;
+  text-align: center;
+  width: 30%;
+  height: 42px;
+  color: rgb(231, 231, 231);
+  border-radius: 5px;
+  border: none;
   }
