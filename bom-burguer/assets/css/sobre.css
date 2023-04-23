@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+body{
+  background-color: rgb(214, 214, 214);
+}
+
+main{
+background-color: rgb(245, 245, 245);
+}
+
+.sobre_main{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 20px 350px;
+}
+.sobre_nos{
+  align-self: flex-start;
+  font-size: 30px;
+  padding-top: 30px;
+}
+
+.texto{
+  width: 1000px;
+  height: 5500px;
+  padding: 20px;
+}
