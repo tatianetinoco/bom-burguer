@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
+
+
+.titulo-cards{
+    color: rgb(48, 48, 48);
+    text-align: center;
+    font-size: 1.2rem;
+    padding-top: 8%;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: #de9116;
+    text-decoration-style: wavy;
+}
+
+.content-cards-1{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 0 2%;
+    padding-top: 5%;
+}
+
+.content-cards-2{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 0 2%;
+    padding-top: 10%;
+    padding-bottom: 15%;
+}
+
+.main-card{
+    background-color: #dddddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    padding-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.title-card{
+    font-size: 1.8rem;
+    color: #9c1c20;
+}
+
+.title-card h3{
+    font-family: 'Poppins', sans-serif;
+}
+
+.img-card img{
+    width: 100%;
+    transition: all 0.2s;
+}
+
+.img-card img:hover{
+    scale: 1.1;
+}
+
+.main-card button {
+    background-color: #9c1c20;
+    cursor: pointer;
+    color: white;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 2% 4%;
+    margin-bottom: 5%;
+    border: 0;
+    border-radius: 5px;  
+}
+
+.main-card button a{
+    color: white;
+    text-decoration: none;
+}
+
+.main-card button:hover{
+    background-color: #b52824;
+}
+
+.banner-content{
+    background: linear-gradient(180deg, rgba(222,145,22,1) 0%, rgba(248,171,31,1) 35%, rgba(222,145,22,1) 100%);
+    display: flex;
+    gap: 2%;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.banner-content-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.3;
+    width: 50%;
+    height: 490px;
+}
+
+.banner-title-1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    text-shadow: -1px -1px 0px #0000006b, 3px 3px 0px #9c1c20, 6px 6px 0px #00000055;
+}
+
+.banner-title-1 h2 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.text-banner{
+    color: white;
+    font-size: 3.2rem;
+    word-spacing: 15px;
+    text-shadow: -1px -1px 0px #0000002f, 2px 2px rgba(0, 0, 0, 0.493);
+}
+
+.text-banner p {
+    font-family: 'Rowdies', cursive;
+}
+
+#desconto-banner{
+    font-family: 'Rowdies', cursive;
+    font-size: 5rem;
+}
+
+.app-content{
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+    padding-top: 10%;
+}
+
+.app-content img{
+    width: 40%;
+    cursor: pointer;
+}
+
+.banner-content-2{
+    display: flex;
+    align-items:center;
+    width: 50%;
+    height: 490px;
+    margin-right: 2%;
+}
+
+.banner-img{
+    height: 90%;
+    width: 100%;
+}
+
+.franquia{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: #f8ab1f;
+    line-height: 2.5;
+    height: 400px;
+    background-color: rgb(63, 15, 107);
+    padding: 2% 10%;
+}
+
+.franquia h2{
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.franquia p{
+    font-size: 1.5rem;
+}
+
+.franquia button{
+    color: #606060;;
+    background-color: #f8f9fa;
+    padding: 15px 25px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;}
+
+.franquia button:hover{
+    color: #f8ab1f;
+    cursor: pointer;
+}
+
+.franquia:hover{
+    background-color: rgb(47, 10, 82);
+}
+
+.secao-cta{
+    background-image: linear-gradient( rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../img/img-banner-5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    text-align: center;
+    width: 100%;
+    height: 490px;
+}
+
+.secao-cta-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2.5rem;
+    color: rgb(206, 206, 206);
+    height: 90%;
+    width: 50%;
+    line-height: 1.5;
+}
+
+.secao-cta-title p{
+    font-size: 3rem;
+    letter-spacing: .5rem;
+    font-family: Montserrat, sans-serif;
+    color: rgb(206, 206, 206);
+}
+
+.secao-cta-title h2{
+    font-size: 4.5rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.secao-cta-title img{
+   width: 50%;
+   margin: auto;
+   cursor: pointer;
+}
+
+.secao-cta-img{
+    width: 50%;
+}
+
+.secao-cta-img img{
+   width: 100%;
+}

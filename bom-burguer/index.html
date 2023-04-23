@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
     <link rel="shortcut icon" href="./assets/img/bom-burguer-icon.ico" type="image/x-icon">
     <title>Bom Burguer</title>
 </head>
 <body>
   <section class="content-all"> 
-    <header>
+    <header class="header">
         <div class="header-content">
             <div class="logo"> 
                 <a href="./index.html"><img class="logotipo" src="./assets/img/Bom Burguer Logotipo.png" alt="Bom Burguer Logotipo"></a>
@@ -28,7 +29,7 @@
                 </nav>
             </div>
 
-            <div>
+            <div class="login-cart">
                 <a href="#"><img class="login" src="./assets/img/img-login.png" alt="Login"></a>
                 <a href="#"><img class="carrinho" src="./assets/img/img-carrinho.png" alt="Carrinho"></a>
             </div>
@@ -48,80 +49,110 @@
 
     <main>
 
+        <div class="titulo-cards">
+            <h2 id="tc">Conheça Nosso Cardápio</h2>
+        </div>
+
       <section class="content-cards-1">
-        <div>
+        <div class="main-card">
             <div class="title-card">
                 <h3>Hamburguer</h3>
             </div>
             <div class="img-card">
                 <img src="./assets/img/img-burguer-um.png">
             </div>
+            <button><a href="/cardapio.html">Comprar</a></button>
         </div>
 
-        <div>
+        <div class="main-card">
             <div class="title-card">
                 <h3>Sobremesa</h3>
             </div>
             <div class="img-card">
                 <img src="./assets/img/img-sobremesa-milkshake.png">
             </div>
+            <button><a href="/cardapio.html">Comprar</a></button>
         </div>
 
-        <div>
+        <div class="main-card">
             <div class="title-card">
                 <h3>Acompanhamentos</h3>
             </div>
             <div class="img-card">
                 <img src="./assets/img/img-acompanhamento-batata-frita.png">
             </div>
+            <button><a href="/cardapio.html">Comprar</a></button>
         </div>
       </section>
 
       <section class="content-cards-2">
-        <div>
+        <div class="main-card">
             <div class="title-card">
                 <h3>Bebidas</h3>
             </div>
             <div class="img-card">
                 <img src="./assets/img/img-bebida-refrigerante.png">
             </div>
+            <button><a href="/cardapio.html">Comprar</a></button>
         </div>
 
-        <div>
+        <div class="main-card">
             <div class="title-card">
                 <h3>Combos</h3>
             </div>
             <div class="img-card">
                 <img src="./assets/img/img-combo-um.png">
             </div>
+            <button><a href="/cardapio.html">Comprar</a></button>
         </div>
 
-        <div>
+        <div class="main-card">
             <div class="title-card">
-                <h3>Prmoções</h3>
+                <h3>Promoções</h3>
             </div>
             <div class="img-card">
                 <img src="./assets/img/img-promocoes.png">
             </div>
+            <button><a href="/cardapio.html">Comprar</a></button>
         </div>
       </section>
 
       <section class="banner-content">
         <div class="banner-content-1">
-            <div class="banner-title-1"><h2>Lorem ipsum dolor sit</h2></div>
+            <div class="banner-title-1"><h2>Baixe Nosso APP</h2></div>
             <div class="text-banner">
-                <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, voluptates ratione. Dolore accusantium voluptatem veniam facere ipsum doloribus, perferendis nobis consequuntur saepe eaque in inventore omnis similique nisi itaque corporis.</P>
+                <P>E ganhe <span id="desconto-banner">10%</span> <br> de desconto na <br> primeira compra</P>
+            </div>
+            <div class="app-content">
+                <img src="./assets/img/img-appgoogleplay.png" alt="App Google Play">
+                <img src="./assets/img/img-appstore.png" alt="App Store">
             </div>
         </div>
 
         <div class="banner-content-2">
-            <div class="banner-title-2"><h2>Peça Já O Seu!!</h2></div>
             <div class="banner-img">
-                <img width="200px" src="./assets/img/img-delivery.png">
+                <img src="./assets/img/img-banner-content.png">
             </div>
         </div>
       </section>
 
+      <section class="franquia">
+        <h2>Seja um Franqueado Bom Burguer</h2>
+        <p>Venha fazer parte da maior rede de Fast Food do país. Faça parte da história de sucesso juntando-se aos mais de 1.000 franqueados. Condições especiais para adesão até o fim do ano.</p>
+        <button>Saiba Mais</button>
+      </section>
+
+      <div class="secao-cta">
+        <div class="secao-cta-title">
+            <p>Bora Comer Um Hamburguer Hoje?</p>
+            <h2>Peça Já O Seu!!</h2>
+            <img src="/assets/img/whatsapp.png">
+        
+        </div>
+        <div class="secao-cta-img">
+            <img src="./assets/img/img-delivery.png">
+        </div>
+    </div>
 
     </main>
 
