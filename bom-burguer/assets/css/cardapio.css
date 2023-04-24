@@ -5,6 +5,7 @@
     gap: 40px;
     margin: 0 2%;
     padding-top: 10%;
+    
 }
 
 .cardapio-content:nth-child(6){
@@ -18,7 +19,6 @@
     align-items: center;
     border-radius: 20px;
     width: 33%;
-    padding-top: 20px;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
@@ -30,6 +30,60 @@
 
 .cardapio-item div h3{
     font-size: 1.8rem;
-    color: #9c1c20;
+    color: #de9116;
+    padding-top: 10%;
+    padding-bottom: 13%;
+
 }
 
+.footer-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1f2539;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px 50px 20px 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}
+
+.cardapio-item button {
+    background-color: #9c1c20;
+    cursor: pointer;
+    color: white;
+    font-size: .8rem;
+    text-transform: uppercase;
+    padding: 5% 6%;
+    margin-bottom: 4%;
+    border: 0;
+    border-radius: 5px; 
+    width:40%; 
+}
+
+.cardapio-item button a{
+    color: white;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.cardapio-item button:hover{
+    background-color: #b52824;
+}
+
+.preco-compra{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}
+
+.preco{
+    color: #05A84B;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 2rem;
+   
+}
