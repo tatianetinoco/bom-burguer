@@ -1,0 +1,11 @@
+
+/* Fundo Header */
+header{
+    background-image: url(../img/img-banner-10.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* Margen do conteúdo */
+.promocoes{
+    margin: 0 2%;
+}

@@ -1,0 +1,10 @@
+header{
+    background-image: url(../img/img-banner-12.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Margen do conteúdo */
+.conteudo_cadastro{
+    margin: 0 2%;
+}

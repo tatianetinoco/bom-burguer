@@ -19,8 +19,8 @@ background-color: rgb(245, 245, 245);
 }
 
 header {
-background: linear-gradient(180deg, rgba(222,145,22,1) 0%, rgba(248,171,31,1) 35%, rgba(222,145,22,1) 100%);
-height: 90vh;
+  background: linear-gradient(180deg, rgba(149,98,16,1) 15%, rgba(222,145,22,1) 57%, rgba(245,245,245,1) 88%, rgba(245,245,245,1) 100%);
+  height: 90vh;
 }
 
 .content-all{
@@ -29,7 +29,7 @@ margin: 0 auto;
 }
 
 .header-content {
-background-color: #00000038;
+background-color: #00000042;
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -63,6 +63,12 @@ color: rgb(240, 240, 240);
 .menu ul li a:hover {
 color: #fdd700;
 }
+
+
+.menu ul li a:active, a:focus {
+  color: #ff0000 !important;
+}
+
 
 .login , .carrinho {
 height: 1.5rem;
@@ -158,18 +164,27 @@ margin-bottom: 1rem ;
 border: 0;
 border-radius: 5px;
 box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
-font-size: 14px;
+font-size: 15px;
 height: 42px;
+padding-left: 2%;
 width: 65%;
 }
 
 .form-content button{
-background-image: linear-gradient(#919191, #222222);
+background-image: linear-gradient(to right, #606c88 0%, #3f4c6b  51%, #606c88  100%);
 font-size: 20px;
 text-align: center;
 width: 30%;
 height: 42px;
+text-transform: uppercase;
 color: rgb(231, 231, 231);
 border-radius: 5px;
+box-shadow: 0 0 10px #272727;
+cursor: pointer;
 border: none;
+}
+
+.form-content button:hover{
+  box-shadow: 0 0 6px #000000;
+
 }
