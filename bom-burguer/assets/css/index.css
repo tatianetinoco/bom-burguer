@@ -165,7 +165,7 @@
     color: rgb(44, 44, 44);
     line-height: 2.5;
     height: 400px;
-    background-color: #dddddd;;
+    background-color: #e7e7e7;;
     padding: 2% 10%;
     text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
 }
@@ -193,10 +193,6 @@
 .franquia button:hover{
     color: #f8ab1f;
     cursor: pointer;
-}
-
-.franquia:hover{
-    background-color: #e7e7e7;
 }
 
 .secao-cta{

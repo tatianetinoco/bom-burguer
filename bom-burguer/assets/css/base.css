@@ -74,6 +74,19 @@ color: #fdd700;
 height: 1.5rem;
 }
 
+.texto-header {
+  color: #ffffff;
+  margin: 20% 2%;
+  font-size: 3rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.texto-header h3 {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 3px;
+  text-shadow: .1em .1em 0 #443a01;;
+}
+
 
 /* SLIDE */
 
