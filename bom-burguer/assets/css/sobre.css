@@ -7,21 +7,18 @@ header{
 }
 
 .sobre_main{
-  height: 100%;
-  display: flex;
-  align-items: center;
-  gap: 40px;
-  padding: 20px 350px;
+ background-color: rgb(248, 237, 174);
+ color: darkred;
+ margin: 0px auto;
 }
 
 .sobre_nos{
-  align-self: flex-start;
   font-size: 30px;
-  padding-top: 30px;
 }
 
 .texto{
-  width: 1000px;
-  height: 5500px;
-  padding: 20px;
+  font-size: 20px;
+  background-color: #f8ab1f ;
+  margin: 100px;
+  padding: 40px;
 }
