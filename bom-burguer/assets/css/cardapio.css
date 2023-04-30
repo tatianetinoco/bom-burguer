@@ -15,7 +15,7 @@ header{
     
 }
 
-.cardapio-content:nth-child(6){
+.cardapio-content:nth-child(5){
     padding-bottom: 15%;
 }
 
@@ -70,7 +70,7 @@ header{
     margin-bottom: 4%;
     border: 0;
     border-radius: 5px; 
-    width:40%; 
+    width:50%; 
     transition: all 0.2s;
 }
 
@@ -85,7 +85,7 @@ header{
 .cardapio-item button:hover{
     background-color: #b52824;
     color: #de9116;
-    scale: 1.1;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
 }
 
 .cardapio-item button a:hover{

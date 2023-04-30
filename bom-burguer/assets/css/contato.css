@@ -1,5 +1,5 @@
 header{
-    background-image: url(../img/img-banner-12.jpg);
+    background-image: linear-gradient( rgba(0,0,0,0.5),rgba(0,0,0,0.2)), url(../img/img-banner-12.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -7,4 +7,5 @@ header{
 /* Margen do conteúdo */
 .conteudo_cadastro{
     margin: 0 2%;
+    padding-top: 2%;
 }
