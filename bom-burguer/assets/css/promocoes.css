@@ -54,7 +54,7 @@ header {
 
 }
 
-h3 {
+.promotitle {
     font-size: 40px;
     margin-left: 5rem;
     margin-top: 2rem;
@@ -101,7 +101,7 @@ h3 {
     margin-bottom: 4%;
     border: 0;
     border-radius: 35px;
-    width: 72%;
+    width: 77%;
 
 }
 
@@ -111,7 +111,7 @@ a {
 }
 
 .img-card {
-    width: 100%;
+    width: 50%;
     margin-left: -22rem;
 }
 
