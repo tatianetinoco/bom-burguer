@@ -46,10 +46,16 @@
             <div class="titulo-login">
                 <h2>Login Do Cliente</h2>
             </div>
-            <form class="form-login" action="">
-                <label for="email"><sup>*</sup>Email:</label>
+            <form class="form-login" action="#">
+                <div class="campo-ast">
+                    <span><sup>*</sup></span>
+                    <label for="email">Email:</label>
+                </div>
                 <input type="email" id="email_login" name="email_login" required placeholder="nome@email.com"><br>
-                <label for="senha"><sup>*</sup>Senha:</label>
+                <div class="campo-ast">
+                    <span><sup>*</sup></span>
+                    <label for="senha">Senha:</label>
+                </div>
                 <input type="password" id="senha" name="pass" required placeholder="12345"><br>
                 <button type="submit" id="submit_login">Continuar</button>
             </form>

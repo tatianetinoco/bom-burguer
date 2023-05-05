@@ -40,7 +40,12 @@ main{
 
 .form-login sup{
     color: red;
+    padding-right: 3px;
 } 
+
+.campo-ast {
+    display: flex;
+}
 
 
 .form-login input{
