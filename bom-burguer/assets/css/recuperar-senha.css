@@ -1,0 +1,89 @@
+header{
+    background-image: linear-gradient( rgba(0,0,0,0.5),rgba(0,0,0,0.2)), url(../img/img-banner-13.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+
+ .conteudo-recuperar-senha{
+    margin: 0 2%;
+    padding-bottom: 100px;
+ } 
+
+ .texto-recuperar-senha{
+    margin-bottom: 20px;
+    padding: 50px 0 30px ;
+ }
+
+
+ .texto-recuperar-senha h2{
+    font-family: 'Poppins', sans-serif;
+    color: #9c1c20;
+    margin-bottom: 20px;
+    font-size: 1.8rem; 
+ }
+
+.texto-recuperar-senha p{
+    font-size: 1.1rem;
+    padding-bottom: 10px; 
+ }
+
+ .form-recuperar-senha{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+.form-recuperar-senha p{
+    margin-top: 5px;
+ }
+
+ .content-form-recuperar-senha{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    gap: 10px;
+    width: 350px;
+    border: 5px solid rgb(201, 201, 201);
+    border-radius: 8px;
+    padding: 8px;
+ }
+
+ .campo-email-recuperar-senha{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+ }
+
+ .content-form-recuperar-senha button{
+    background-color: #1f2539;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 5px;
+    border: 0;
+    border-radius: 8px;
+    color: whitesmoke;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.2s ease 0s;
+ }
+
+ .content-form-recuperar-senha button:hover{
+    background-color: #9c1c20;
+ }
+
+
+ .content-form-recuperar-senha input{
+    width: 100%;
+    background: transparent;
+    font-size: 1.2rem;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-align: center;
+    border: 0;
+    border-radius: 8px;
+  
+ }

@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/base.css">
-    <link rel="stylesheet" href="./assets/css/login.css">
+    <link rel="stylesheet" href="./assets/css/recuperar-senha.css">
     <link rel="shortcut icon" href="./assets/img/bom-burguer-icon.ico" type="image/x-icon">
-    <title>Login</title>
+    <title>Recuperar Senha</title>
 </head>
 <body>
   <section class="content-all"> 
@@ -35,38 +35,42 @@
             </div>
         </div>
 
-       
+        <div class="texto-header">
+            <h3>Recuperar Senha</h3>
+        </div>
+
     </header>
 
     <main>
 
-        <div class="content_login">
+        <section class="conteudo-recuperar-senha">
 
-        <section class="tela_login">
-            <div class="titulo-login">
-                <h2>Login Do Cliente</h2>
+            <div class="texto-recuperar-senha">
+                <h2>Esqueçeu Sua Senha?</h2>
+                <p>
+                    Informe o e-mail cadastrado para receber as informações de recuperação de senha no seu e-mail. 
+                </p>
+                <p>
+                    Caso não se lembre do e-mail que usou em seu cadastro, entre em contato pelo nosso formulário e escolha a opção "Perdi acesso ao meu cadastro" que entraremos em contato com você o mais breve possível.
+                </p>
             </div>
-            <form class="form-login" action="#">
-                <div class="campo-ast">
-                    <span><sup>*</sup></span>
-                    <label for="email">Email:</label>
+
+
+            <div class="form-recuperar-senha"> 
+                <div class="content-form-recuperar-senha">
+                    <div class="campo-email-recuperar-senha">
+                        <img src="./assets/img/img-email.png">
+                        <input type="email" id="email_recuperar_login_" name="email_login" required="" placeholder="Digite Email Cadastrado">
+                    </div>
+                    <button>Recuperar Senha</button>
                 </div>
-                <input type="email" id="email_login" name="email_login" required placeholder="nome@email.com"><br>
-                <div class="campo-ast">
-                    <span><sup>*</sup></span>
-                    <label for="senha">Senha:</label>
-                </div>
-                <input type="password" id="senha" name="pass" required placeholder="12345"><br>
-                <button type="submit" id="submit_login">Continuar</button>
-            </form>
-            <p>Não tem cadastro? <a href="#">Cadastre-se</a></p>
-            <p> <a href="./recuperar-senha.html">Esqueci minha senha</a></p>       
+                <p>Ainda Não tem cadastro? <a href="#">Cadastre-se</a></p>
+            </div>
         </section>
 
-       </div>
-  
 
-
+    
+   
      
 
     </main>
