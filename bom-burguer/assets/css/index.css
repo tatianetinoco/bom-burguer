@@ -24,17 +24,19 @@ header{
     display: flex;
     align-items: center;
     gap: 40px;
-    margin: 0 2%;
     padding-top: 5%;
+    max-width: 1300px;
+    margin: auto;
 }
 
 .content-cards-2{
     display: flex;
     align-items: center;
     gap: 40px;
-    margin: 0 2%;
-    padding-top: 10%;
-    padding-bottom: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    max-width: 1300px;
+    margin: auto;
 }
 
 .main-card{
@@ -98,6 +100,8 @@ header{
     align-items: center;
     height: 500px;
     border-radius: 20px;
+    max-width: 1300px;
+    margin: auto;
 }
 
 .banner-content-1{
@@ -172,6 +176,8 @@ header{
     height: 580px;
     padding: 80px 100px;
     text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+    max-width: 1300px;
+    margin: auto;
 }
 
 .franquia h2{
@@ -206,17 +212,22 @@ header{
     box-shadow: rgba(0, 0, 0, 0.6) 0px 2px 4px, rgba(0, 0, 0, 0.4) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
-.secao-cta{
+.banner-delivery{
     background-image: linear-gradient( rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../img/img-banner-5.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.secao-cta{
     display: flex;
     flex-direction: row;
     align-items:center;
     text-align: center;
     width: 100%;
     height: 490px;
+    max-width: 1300px;
+    margin: auto;
 }
 
 .secao-cta-title{
