@@ -6,6 +6,11 @@ header{
   background-position: center;
 }
 
+.content-main-sobre{
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
 .sobre_main{
  background-color: rgb(248, 237, 174);
  color: darkred;

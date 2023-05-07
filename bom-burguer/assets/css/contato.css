@@ -15,11 +15,13 @@ header{
 section{
     display: flexbox;
 }
+
 .conteudo_cadastro{
     font-size: 25px;
     background-color: #f8ab1f ;
-    margin: 150px;
     padding: 80px;
     height: 1100px;
     width: 950px;
+    max-width: 1300px;
+    margin: 0 auto;
 }
