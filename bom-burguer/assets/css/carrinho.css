@@ -1,0 +1,123 @@
+header{
+    background-image: url(../img/img-banner-12.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.titulo_carrinho{
+    background-color: #05A84B;
+    display: inline-block;
+    margin: 5% 0 2% 10%;
+    padding: 15px 30px;
+    color: #000000;
+    text-transform: uppercase;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.checkout-cart{
+    padding-top: 20px;
+}
+
+table {  
+    background-color: #ffffff;
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+table thead th { 
+    background-color: #8f8f8f;
+    color: white; 
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    height: 50px;
+    padding: 5px;
+}
+    
+table tbody tr{
+    height: 100px;
+}
+
+table tfoot td { 
+    background-color: #8f8f8f;
+    color: white; 
+}
+
+table tbody tr:nth-child(even) td { 
+    background-color: #f2f2f2;       
+}
+
+table tbody tr:hover td { 
+    background-color: #d8d8d8; 
+    cursor: pointer;  
+}
+
+table tfoot td {
+    color: #8f8f8f;
+}
+
+.form_cep{
+    background-color: #d8d8d8;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.calcular_frete{
+    width: 50%;
+    margin: 80px 0 0 10%;
+    padding-bottom: 200px;
+}
+
+.btn-conteudo{
+    display: flex;
+    align-content: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+#cep, #btn-calc, #pesq-cep{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    border: 0;
+}
+
+.btn-conteudo input{
+    width: 50%;
+}
+
+.btn-conteudo button{
+    width: 20%;
+    font-size: 1rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    justify-content: center;
+    background-color: #1f2539;
+}
+
+.btn-conteudo p{
+    justify-content: center;
+    width: 30%;
+}
+
+.btn-conteudo p a{
+    text-decoration: none;
+}
+
+.btn-conteudo p a:hover{
+    text-decoration: underline;
+}
+
+.btn-conteudo ::placeholder{
+    padding-left: 5px;
+}
+
+#btn-calc:hover{
+    cursor: pointer;
+    background-color: #05A84B;
+    border: 3px solid #00662c;
+}
