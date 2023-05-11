@@ -4,7 +4,7 @@
 
 
 header{
-    background-image: linear-gradient( rgba(0,0,0,0.6),rgba(0,0,0,0.4)), url(../img/img-banner-1.png);
+    background-image: linear-gradient( rgba(0,0,0,0.6),rgba(0,0,0,0.4)), url(../img/img-banner-index.png);
     background-size: cover;
     background-position: center;
   }

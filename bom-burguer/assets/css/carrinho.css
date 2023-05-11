@@ -1,5 +1,5 @@
 header{
-    background-image: url(../img/img-banner-12.jpg);
+    background-image: linear-gradient( rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(../img/img-banner-carrinho.png);
     background-size: cover;
     background-position: center;
 }
