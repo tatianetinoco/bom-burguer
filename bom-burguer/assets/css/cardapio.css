@@ -6,18 +6,32 @@ header{
     background-position: center;
 }
 
+
+.titulo-menu {
+    padding: 100px 0 0;
+    max-width: 1300px;
+    margin: 0 auto;
+    border-bottom: 2px solid #d3d3d3;
+}
+
+.titulo-menu h3{
+    color: rgb(58, 58, 58);
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
 .cardapio-content {
     display: flex;
     align-items: center;
     gap: 40px;
-    padding-top: 10%;
+    padding-top: 20px;
     max-width: 1300px;
     margin: 0 auto;
     
 }
 
-.cardapio-content:nth-child(5){
-    padding-bottom: 15%;
+.cardapio-content:nth-child(10){
+    padding-bottom: 200px;
 }
 
 .cardapio-item {
@@ -44,8 +58,8 @@ header{
 .cardapio-item div h3{
     font-size: 1.8rem;
     color: #de9116;
-    padding-top: 10%;
-    padding-bottom: 13%;
+    padding-top: 20px;
+    padding-bottom: 25px;
 
 }
 
