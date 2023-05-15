@@ -6,22 +6,51 @@ header{
 
 /* Margen do conteúdo */
 .main_principal{
-    background-color: rgb(248, 237, 174);
     color: darkred;
-    padding-top: 10px ;
-    padding-bottom: 30px;
+    
 }
 
-section{
-    display: flexbox;
+.conteudo_cadastro {
+    margin-bottom: 50px;
+    padding-top: 50px;
 }
 
-.conteudo_cadastro{
-    font-size: 25px;
+.conteudo_cadastro form{
+    font-size: 20px;
     background-color: #f8ab1f ;
     padding: 80px;
-    height: 1100px;
     width: 950px;
-    max-width: 1300px;
-    margin: 0 auto;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.conteudo_cadastro h2{
+    margin-bottom: 30px;
+    color: rgb(46, 46, 46);
+}
+
+#btn-contato-enviar{
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 1% 2%;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    width: 20%;
+    color: #ffffff;
+    background-color: #e74c3c;
+    margin: 10px 0;
+}
+
+.mapa-contato{
+    margin-left: 50px;
+    padding-bottom: 100px;
+
+}
+
+.mapa-contato h2{
+    letter-spacing: 1px;
+    font-style: italic;
+    margin: 1% 2%;
 }
