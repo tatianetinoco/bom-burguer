@@ -6,13 +6,18 @@ header{
 
 /* Margen do conteúdo */
 .main_principal{
-    color: darkred;
-    
+    color: darkred;   
+    margin: 0 auto;
 }
+
+.content-contato-mapa{
+    margin: 0 2%;
+    padding-bottom: 100px;
+ }
 
 .conteudo_cadastro {
     margin-bottom: 50px;
-    padding-top: 50px;
+    padding: 50px 10px 0 10px;
 }
 
 .conteudo_cadastro form{
@@ -44,9 +49,8 @@ header{
 }
 
 .mapa-contato{
-    margin-left: 50px;
-    padding-bottom: 100px;
-
+   padding-top: 50px;
+   margin: 0 60px;
 }
 
 .mapa-contato h2{
