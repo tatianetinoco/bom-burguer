@@ -1,10 +1,70 @@
 console.log("hello word!");
-let test = document.getElementsByClassName("test");
+let test = document.getElementsByClassName("promocoes");
 console.log(test)
-const arrayCards = []
+const arrayCards = [
+    {
+        promotitle: "Promoção 01",
+        h3card: "Combo Ruby",
+        decricao: "Delicioso hamburguer de carne bovina com queijo reino cheddar e bacon",
+        preco: "R$33",
+        button:"Comprar"
+     },
+    {
+        promotitle: "Promoção 01",
+        h3card: "Combo Ruby",
+        decricao: "Delicioso hamburguer de carne bovina com queijo reino cheddar e bacon",
+        preco: "R$33",
+        button: "Comprar"
+    },
+    {
+        promotitle: "Promoção 01",
+        h3card: "Combo Ruby",
+        decricao: "Delicioso hamburguer de carne bovina com queijo reino cheddar e bacon",
+        preco: "R$33",
+        button: "Comprar"
+    },
+    {
+        promotitle: "Promoção 01",
+        h3card: "Combo Ruby",
+        decricao: "Delicioso hamburguer de carne bovina com queijo reino cheddar e bacon",
+        preco: "R$33",
+        button:"Comprar"
+    }
+]
 
-//criar o elemento
-let document.createElement("'")
-//manipular o elemnto
+for (let i = 0; i < arrayCards.length; i++){
+    //criar o elemento
+    let section = document.createElement("section")
 
-//Adicionar o elemento
+    //manipular o elemnto
+
+    section.innerHTML = `
+        <section class="test">
+            <div class="titulo-promocao-1">
+                <h3 class="promotitle"> ${arrayCards[i].promotitle}</h3>
+            </div>
+            <div class="promocao">
+                <div class="img-card">
+                    <img src="./assets/img/img-promo-um.png">
+                </div>
+                <div class="card-preco">
+                    <div>
+                        <h3 class="h3card"> ${arrayCards[i].h3card}</h3>
+                        <p class="descricao"> ${arrayCards[i].descricao} </p>
+                    </div>
+                    <div class="preco-compra">
+                        <div class="preco"> ${arrayCards[i].preco}</div>
+                        <button class="button">
+                            <a href="#"> ${arrayCards[i].button}</a>
+                        </button>
+                    </div>
+                </div>
+        </section>`
+
+    console.log(section)
+
+    //Adicionar o elemento
+
+    let promocoes = document.querySelector("section.promocoes")
+    promocoes.appendChild(section)
+}
