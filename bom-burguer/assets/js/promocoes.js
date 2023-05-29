@@ -6,6 +6,7 @@ const arrayCards = [
         promotitle: "Promoção 01",
         h3card: "Combo Ruby",
         decricao: "Delicioso hamburguer de carne bovina com queijo reino cheddar e bacon",
+        imgCard: "./assets/img/img-promo-um.png",
         preco: "R$33",
         button:"Comprar"
      },
@@ -13,6 +14,7 @@ const arrayCards = [
         promotitle: "Promoção 01",
         h3card: "Combo Ruby",
         decricao: "Delicioso hamburguer de carne bovina com queijo reino cheddar e bacon",
+        imgCard: "./assets/img/img-promo-dois.png",
         preco: "R$33",
         button: "Comprar"
     },
@@ -20,6 +22,7 @@ const arrayCards = [
         promotitle: "Promoção 01",
         h3card: "Combo Ruby",
         decricao: "Delicioso hamburguer de carne bovina com queijo reino cheddar e bacon",
+        imgCard: "./assets/img/img-promo-um.png",
         preco: "R$33",
         button: "Comprar"
     },
@@ -27,6 +30,7 @@ const arrayCards = [
         promotitle: "Promoção 01",
         h3card: "Combo Ruby",
         decricao: "Delicioso hamburguer de carne bovina com queijo reino cheddar e bacon",
+        imgCard:"./assets/img/img-promo-tres.png",
         preco: "R$33",
         button:"Comprar"
     }
@@ -45,7 +49,7 @@ for (let i = 0; i < arrayCards.length; i++){
             </div>
             <div class="promocao">
                 <div class="img-card">
-                    <img src="./assets/img/img-promo-um.png">
+                    <img src=${arrayCards[i].imgCard}>
                 </div>
                 <div class="card-preco">
                     <div>
@@ -67,4 +71,5 @@ for (let i = 0; i < arrayCards.length; i++){
 
     let promocoes = document.querySelector("section.promocoes")
     promocoes.appendChild(section)
+
 }
