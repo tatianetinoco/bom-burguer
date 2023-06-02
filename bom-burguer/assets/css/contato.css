@@ -22,15 +22,17 @@ header{
 
 .conteudo_cadastro form{
     font-size: 20px;
-    background-color: #f8ab1f ;
+    background-color: #fdd180 ;
     padding: 80px;
-    width: 950px;
+    width: 500px;
     margin: auto;
+    color: #00240F;
     border-radius: 10px;
+    box-shadow: 10px 10px;
 }
 
 .conteudo_cadastro h2{
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     color: rgb(46, 46, 46);
 }
 
@@ -44,7 +46,7 @@ header{
     letter-spacing: 1px;
     width: 20%;
     color: #ffffff;
-    background-color: #e74c3c;
+    background-color: #c13424;
     margin: 10px 0;
 }
 
