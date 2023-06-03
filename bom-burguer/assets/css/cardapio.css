@@ -21,27 +21,22 @@ header{
     font-family: 'Poppins', sans-serif;
 }
 
-.cardapio-content {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-    padding: 20px 10px 0 10px;
+#cardapio-content {
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 120px;
     max-width: 1300px;
-    margin: 0 auto;
-    
+    margin: 0 auto;  
 }
 
-.cardapio-content:nth-child(10){
-    padding-bottom: 200px;
-}
 
 .cardapio-item {
     background-color: #dddddd;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: inline-block;
     border-radius: 20px;
-    width: 33%;
+    width: 400px;
+    margin: 50px 13px;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
