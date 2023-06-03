@@ -4,34 +4,34 @@ console.log(test)
 const arrayCards = [
     {
         promotitle: "Promoção 01",
-        h3card: "Combo Ruby",
-        decricao: "Delicioso hamburguer de carne bovina com queijo reino cheddar e bacon",
+        h3card: "Combo Diamante",
+        descricao: "Delicioso hamburguer de carne bovina com queijo gorgonzola e bacon",
         imgCard: "./assets/img/img-promo-um.png",
         preco: "R$33",
         button:"Comprar"
      },
     {
-        promotitle: "Promoção 01",
+        promotitle: "Promoção 02",
         h3card: "Combo Ruby",
-        decricao: "Delicioso hamburguer de carne bovina com queijo reino cheddar e bacon",
+        descricao: "Delicioso hamburguer de carne bovina com queijo reino e bacon",
         imgCard: "./assets/img/img-promo-dois.png",
-        preco: "R$33",
+        preco: "R$26",
         button: "Comprar"
     },
     {
-        promotitle: "Promoção 01",
-        h3card: "Combo Ruby",
-        decricao: "Delicioso hamburguer de carne bovina com queijo reino cheddar e bacon",
+        promotitle: "Promoção 03",
+        h3card: "Combo Esmeralda",
+        descricao: "Delicioso hamburguer de carne bovina com queijo reino cheddar e bacon",
         imgCard: "./assets/img/img-promo-um.png",
-        preco: "R$33",
+        preco: "R$41",
         button: "Comprar"
     },
     {
-        promotitle: "Promoção 01",
-        h3card: "Combo Ruby",
-        decricao: "Delicioso hamburguer de carne bovina com queijo reino cheddar e bacon",
+        promotitle: "Promoção 04",
+        h3card: "Combo Ametista",
+        descricao: "Delicioso hamburguer de carne bovina com queijo suiço e bacon",
         imgCard:"./assets/img/img-promo-tres.png",
-        preco: "R$33",
+        preco: "R$23",
         button:"Comprar"
     }
 ]
@@ -54,7 +54,7 @@ for (let i = 0; i < arrayCards.length; i++){
                 <div class="card-preco">
                     <div>
                         <h3 class="h3card"> ${arrayCards[i].h3card}</h3>
-                        <p class="descricao"> ${arrayCards[i].descricao} </p>
+                        <p class="descricao"> ${arrayCards[i].descricao}</p>
                     </div>
                     <div class="preco-compra">
                         <div class="preco"> ${arrayCards[i].preco}</div>
