@@ -57,13 +57,14 @@
 
 
             <div class="form-recuperar-senha"> 
-                <div class="content-form-recuperar-senha">
+                <form class="content-form-recuperar-senha">
                     <div class="campo-email-recuperar-senha">
                         <img src="./assets/img/img-email.png">
-                        <input type="email" id="email_recuperar_login_" name="email_login" required="" placeholder="Digite Email Cadastrado">
+                        <input type="email" id="email_recuperar_login_" name="email_login" required="required" placeholder="Digite Email Cadastrado">
                     </div>
-                    <button>Recuperar Senha</button>
-                </div>
+                    <p id="email-helper" class="helper-text">Mensagem de ajuda</p>
+                    <input id="enviar" type="submit" value="Enviar" />
+                </form>
                 <p>Ainda Não tem cadastro? <a href="#">Cadastre-se</a></p>
             </div>
         </section>
