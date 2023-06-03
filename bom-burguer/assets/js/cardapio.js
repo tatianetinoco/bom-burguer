@@ -182,7 +182,6 @@ var content = document.getElementById ("cardapio-content");
         '</div>' +
         "</div>";
     }
-
 }
 
 addCards();
