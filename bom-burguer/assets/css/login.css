@@ -68,6 +68,8 @@ main{
 .form-login button{
     width: 100%;
     font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
     font-family: Montserrat, sans-serif;
     font-weight: 500;
     padding: 10px;
@@ -75,12 +77,14 @@ main{
     border-radius: 5px;
     margin: 15px 0;
     cursor: pointer;
-    transition: all 0.2s linear;
+    background-color: #1f2539;
+    transition: all 0.1s linear;
 } 
 
 
 .form-login button:hover{
-    color: red;
+    color:#de9116;
+    background-color: #1f2539;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
@@ -97,3 +101,41 @@ p{
     font-size: .8rem;
     padding: 3px 0;
 }
+
+.helper-text {
+    display: none;
+    font-size: .8rem;
+    color: darkred;
+  }
+
+/* ---------- Estilos dinamicos ---------- */
+.required-popup::after {
+    content: "*Campo obrigatário";
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #DFDFDF;
+    font-size: .65rem;
+    padding: .2rem .3rem;
+    width: auto;
+    display: block;
+    background-color: #202020;
+  }
+  
+  input.error {
+    border: solid 2px #992020;
+    background-color: #CCBBBB;
+    color: #662020;
+    outline: 0;
+  }
+  
+  input.correct {
+    background-color: #BBCCBB;
+    border: solid 2px #206620;
+    color: #206620;
+    outline: 0;
+  }
+  
+  .visible {
+    display: block;
+  }

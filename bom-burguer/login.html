@@ -54,14 +54,16 @@
             <form class="form-login" action="#">
                 <div class="campo-ast">
                     <span><sup>*</sup></span>
-                    <label for="email">Email:</label>
+                    <label for="email" id="emailLabel">Email:</label>
                 </div>
                 <input type="email" id="email_login" name="email_login" required placeholder="nome@email.com"><br>
+                <p id="email-helper" class="helper-text">Mensagem de ajuda</p>
                 <div class="campo-ast">
                     <span><sup>*</sup></span>
                     <label for="senha">Senha:</label>
                 </div>
                 <input type="password" id="senha" name="pass" required placeholder="12345"><br>
+                <p id="senha-helper" class="helper-text">Mensagem de ajuda</p>
                 <button type="submit" id="submit_login">Continuar</button>
             </form>
             <p>Não tem cadastro? <a href="#">Cadastre-se</a></p>
