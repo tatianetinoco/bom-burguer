@@ -85,3 +85,12 @@ emailInput.addEventListener("change", (e)=> {
     inputsCorretos.email = false
   }
 })
+btnContatoEnviar.addEventListener("click", (e)=>{
+    if(inputsCorretos.nome == false ||
+      inputsCorretos.email == false ||){
+      e.preventDefault()
+      alert('Os campos obrigatorios precisam ser preenchidos corretamente')
+    }else{
+      alert("formulario enviado com sucesso")
+    }
+  })
