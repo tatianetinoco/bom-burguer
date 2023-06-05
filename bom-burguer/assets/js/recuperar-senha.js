@@ -47,6 +47,6 @@ btnSubmit.addEventListener('click', (e)=> {
     e.preventDefault()
     alert('Os campos obrigatórios precisam ser preenchidos corretamente')
   }else{
-    alert('Formulário Enviado Com Sucesso')
+    alert('Em alguns instantes você receberá em seu e-mail uma mensagem com as instruções de como recuperar sua senha')
   }
 })
