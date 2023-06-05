@@ -75,7 +75,7 @@ btnSubmit.addEventListener('click', (e)=> {
     e.preventDefault()
     alert('Os campos obrigatórios precisam ser preenchidos corretamente')
   }else{
-    alert('Formulário Enviado Com Sucesso')
+    alert('Logado Com Sucesso')
   }
 })
 
