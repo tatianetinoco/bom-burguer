@@ -13,13 +13,13 @@
 
   #### :point_right: Logo
 
-  <img src="(https://raw.githubusercontent.com/tatianetinoco/projeto-integrador-proz-educacao-2023/main/bom-burguer/assets/img/Bom%20Burguer%20Logotipo.png))" alt="Bom Burguer Logotipo" style="zoom:50%;float:left" />
+![Logo Bom Burguer](https://raw.githubusercontent.com/tatianetinoco/projeto-integrador-proz-educacao-2023/main/bom-burguer/assets/img/Bom%20Burguer%20Logotipo.png)
 
   
 
   #### :point_right: Paleta de Cores
 
-  <img src="(https://raw.githubusercontent.com/tatianetinoco/projeto-integrador-proz-educacao-2023/main/bom-burguer/assets/img/paletta-bom-burguer.png))" style="zoom:80%;float:left" />
+![Logo Bom Burguer](https://raw.githubusercontent.com/tatianetinoco/projeto-integrador-proz-educacao-2023/main/bom-burguer/assets/img/paletta-bom-burguer.png)
 
   
 
