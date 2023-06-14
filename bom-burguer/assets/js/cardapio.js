@@ -3,7 +3,7 @@ function addCards(){
     card01: {
         imagem: "./assets/img/img-burguer-um.png",
   
-        footerTitulo: "Hamburguer 1",
+        footerTitulo: "Bacon Burguer",
  
          preco: "$10",
 	
@@ -13,7 +13,7 @@ function addCards(){
   card02: {
         imagem: "./assets/img/img-burguer-dois.png",
   
-        footerTitulo: "Hamburguer 2",
+        footerTitulo: "Double Burger",
  
          preco: "$10",
 	
@@ -23,7 +23,7 @@ function addCards(){
   card03: {
         imagem: "./assets/img/img-burguer-tres.png",
   
-        footerTitulo: "Hamburguer 3",
+        footerTitulo: "Mega Double Cheese",
  
          preco: "$10",
 	
