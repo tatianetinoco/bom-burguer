@@ -1,0 +1,63 @@
+header{
+  background-image: linear-gradient( rgba(0,0,0,0.5),rgba(0,0,0,0.4)), url(../img/img-banner-contato.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.main_content{
+  padding-bottom: 100px;
+  max-width: 1300px;
+  margin: auto;
+  
+}
+
+.txt-cadastro{
+ margin-bottom: 50px;
+}
+
+.txt-cadastro h3{
+  font-size: 36px;
+  color: rgb(102, 102, 102);
+  padding: 20px 0 20px;
+ 
+}
+
+.formulario-cadastro{
+  width: 700px;
+  padding: 30px;
+  font-size: 1.2rem;
+  border: 2px solid rgba(102, 102, 102, 0.096);
+  border-radius: 5px;
+  background-color: #E5E8E8;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.formulario-cadastro div{
+ margin-bottom: 20px;
+}
+
+.input_form_cad{
+  padding-left: 5px;
+  margin-left: 10px;
+  height: 1.5rem;
+  width: 50%;
+  border: 0;
+  border-radius: 5px;
+}
+
+.btn-cad{
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  padding: 10px 30px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #AEB6BF;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.btn-cad:hover{
+  background-color: #5D6D7E;
+  color: white;
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}

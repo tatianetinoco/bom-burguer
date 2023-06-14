@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/cadastro.css">
+    <link rel="shortcut icon" href="./assets/img/bom-burguer-icon.ico" type="image/x-icon">
+    <title>Bom Burguer</title>
+</head>
+<body>
+  <section class="content-all"> 
+    <header class="header">
+        <div class="header-content">
+            <div class="logo"> 
+                <a href="./index.html"><img class="logotipo" src="./assets/img/Bom Burguer Logotipo.png" alt="Bom Burguer Logotipo"></a>
+            </div>
+
+            <div class="menu-section">
+                <nav class="menu">
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./cardapio.html">Cardápio</a></li>
+                        <li><a href="./promocoes.html">Promoções</a></li>
+                        <li><a href="./sobre.html">Sobre</a></li>
+                        <li><a href="./contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="login-cart">
+                <a href="./login.html" title="Faça Login"><img class="login" src="./assets/img/img-login.png" alt="Login"></a>
+                <a href="./carrinho.html" title="Carrinho"><img class="carrinho" src="./assets/img/img-carrinho.png" alt="Carrinho"></a>
+            </div>
+        </div>
+
+        <div class="texto-header">
+            <h3>Cadastro</h3>
+        </div>
+
+    </header>
+
+    <main>
+
+      <section class='main_content'>
+
+        <section class="txt-cadastro">
+            <div>
+                <h3>Crie seu cadastro</h3>
+            </div>
+            <p>Faça seu cadastro e acompanhe seus pedidos. Ganhe descontos e obtenha outros benefícios!</p>
+        </section>
+    
+        <section class="formulario-cadastro">
+            <form action="" class="conteudo-formulario-cadastro">
+                <div>
+                    <label for="nome">Nome Completo:</label> 
+                    <input class="input_form_cad" type="text" id="nome" required minlength="6" maxlength="30" /> 
+                </div>
+    
+                <div>
+                    <label for="data-nascimento">Data De Nascimento:</label>
+                    <input class="input_form_cad" type="tel" name="data-nascimento" id="data-nascimento" minlength="8" maxlength="8" required placeholder="__/__/____">
+                </div>
+    
+                <div>
+                    <label for="cpf">CPF:</label>
+                    <input class="input_form_cad" type="tel" name="cpf" id="cpf" minlength="11" maxlength="11" required placeholder="___.___.___-__">
+                </div>
+    
+                <div>
+                    <label for="telefone">Telefone:</label>
+                    <input class="input_form_cad" type="tel" name="telefone" id="telefone" minlength="8" maxlength="11" required placeholder="(__) _____-____">
+                </div>
+    
+                <div>
+                    <label for="email">Email:</label>
+                    <input class="input_form_cad" type="email" id="email_cadastro" name="email_cadastro" required placeholder="nome@email.com"><br>
+                </div>
+    
+                <div>
+                    <p>Gênero:</p>
+                    <input type="radio" name="genero" id="feminino" value="feminino">
+                    <label for="feminino">Feminino</label>
+                    <input type="radio" name="genero" id="masculino" value="masculino">
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" name="genero" id="não informar" value="não informar">
+                    <label for="não informar">Não Informar</label>
+                </div>
+    
+                <div>
+                    <select name="estado"> 
+                        <option value="" disabled selected>Escolher Estado</option>
+                        <option value="ac">Acre</option> 
+                        <option value="al">Alagoas</option> 
+                        <option value="am">Amazonas</option> 
+                        <option value="ap">Amapá</option> 
+                        <option value="ba">Bahia</option> 
+                        <option value="ce">Ceará</option> 
+                        <option value="df">Distrito Federal</option> 
+                        <option value="es">Espírito Santo</option> 
+                        <option value="go">Goiás</option> 
+                        <option value="ma">Maranhão</option> 
+                        <option value="mt">Mato Grosso</option> 
+                        <option value="ms">Mato Grosso do Sul</option> 
+                        <option value="mg">Minas Gerais</option> 
+                        <option value="pa">Pará</option> 
+                        <option value="pb">Paraíba</option> 
+                        <option value="pr">Paraná</option> 
+                        <option value="pe">Pernambuco</option> 
+                        <option value="pi">Piauí</option> 
+                        <option value="rj">Rio de Janeiro</option> 
+                        <option value="rn">Rio Grande do Norte</option> 
+                        <option value="ro">Rondônia</option> 
+                        <option value="rs">Rio Grande do Sul</option> 
+                    </select>
+                </div>
+    
+                <div>
+                    <label for="senha">Senha:</label>
+                    <input class="input_form_cad" type="password" id="senha" name="password" minlength="6" maxlength="20" required placeholder=" Entre 6 e 8 dígitos"><br>
+                </div>
+    
+                <button class="btn-cad" type="submit" id="submit_login">Criar Cadastro</button>
+            </form>
+        </section>
+
+      </section>
+
+  
+
+    </main>
+
+    <footer class="footer">
+
+      <section class="footer-content"> 
+
+        <div class="redes-sociais">
+            <h3>Redes Sociais</h3>
+            <ul>
+                <li><a href="#" target="_blank" title="Facebook"><img src="./assets/img/img-social-fb.png" width="40px" height="40px"></a></li>
+                <li><a href="#" target="_blank" title="Instagram"><img src="./assets/img/img-social-instagram.png" width="40px" height="40px"></a></li>
+                <li><a href="#" target="_blank" title="Linkedin"><img src="./assets/img/img-social-linkedIn.png" width="40px" height="40px"></a></li>
+                <li><a href="#" target="_blank" title="Twitter"><img src="./assets/img/img-social-twitter.png" width="40px" height="40px"></a></li>
+                <li><a href="#" target="_blank" title="Youtube"><img src="./assets/img/img-social-youtube.png" width="40px" height="40px"></a></li>
+            </ul>
+        </div>
+
+        <div class="footer-links">
+            <h3>Informações</h3>
+            <ul>
+                <li><a href="#" target="_blank" >Trabalhe Conosco</a></li>
+                <li><a href="#" target="_blank" >Seja Um Franqueado</a></li>
+            </ul>
+        </div>
+
+        <div class="news-letter">
+            <h3>
+                Inscreva-se e Receba Nossas Ofertas
+            </h3>
+            <form class="form-content">
+                <input id="email" type="email" placeholder="Digite Seu E-mail">
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+
+      </section>
+
+    </footer>
+</body>
+</section>
+
+</html>
