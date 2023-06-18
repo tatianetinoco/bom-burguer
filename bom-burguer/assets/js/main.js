@@ -12,3 +12,13 @@ function carousel() {
   x[slideIndex-1].style.display = "block";
   setTimeout(carousel, 3000); 
 }
+
+
+// Menu
+function showMenu() {
+  if (menu.style.display == 'block') {
+      menu.style.display = 'none'
+  }else {
+    menu.style.display = 'block'
+  }
+}

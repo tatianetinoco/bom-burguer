@@ -1,0 +1,109 @@
+@media (max-width: 992px) {
+  .texto-header {
+    padding-left: 10px;
+  }
+  #icon-menu{
+    display: block;
+    cursor: pointer;
+  }
+  #menu{
+    display: none;
+    width: 500px;
+    position:absolute;
+    
+  }
+  #menu ul{
+    display: block;
+    background-color: rgba(0, 0, 0, 0.788);
+    width: 100%;
+    height: 100vh;
+    margin-top: 40px;
+    transition: .3s;
+  }
+
+  #menu ul li a{
+    display: block;
+    border-top: 1px solid rgb(68, 68, 68) ;
+    padding: 15px;
+  }
+
+  #menu ul li a:hover{
+   background-color: rgba(0, 0, 0, 0.850);
+   cursor: pointer;
+  }
+
+  .carrinho{
+   padding-right: 30px;
+  }
+
+  .footer-content{
+    flex-direction: column;
+    height: 100%;
+  } 
+
+  .footer-content div{
+    margin-bottom: 50px;
+  }
+  .redes-sociais h3{
+    display: none;
+  }
+
+  .redes-sociais h3{
+    margin: auto;
+  }
+
+  .footer{
+    display: flex;
+    align-items: end;
+  }
+ 
+}
+
+@media (max-width: 530px){
+
+  .texto-header{
+    text-align: center;
+  }
+
+  .texto-header-index {
+    font-size: 2.8rem;
+  }
+
+  .texto-header p{
+    font-size: 1.1rem;
+  }
+
+  header{
+    height: 500px;
+  }
+}
+
+@media (max-width: 435px){
+
+  .texto-header-index {
+    font-size: 2rem;
+  }
+
+  .texto-header p{
+    font-size: 1rem;
+  }
+
+  header{
+    height: 480px;
+  }
+}
+
+@media (max-width: 330px){
+
+  .texto-header-index {
+    font-size: 1.5rem;
+  }
+
+  .texto-header p{
+    font-size: 1rem;
+  }
+
+  header{
+    height: 400px;
+  }
+}

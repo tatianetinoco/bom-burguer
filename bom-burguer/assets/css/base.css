@@ -44,38 +44,52 @@ header {
   height: 3rem;
 }
 
+#icon-menu {
+  background-color: transparent;
+  border: none;
+  color: #FFF;
+  font-size: 36px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  display: none;
+}
 
-.menu ul {
+#menu ul {
   display: flex;
   font-size: 1.1rem;
   font-weight: 600;
   text-transform: uppercase;
 }
 
-.menu ul li {
+#menu ul li {
   list-style-type: none;
 }
 
-.menu ul li a {
+#menu ul li a {
   text-decoration: none;
   padding: 10px 25px;
   font-family: Montserrat, sans-serif;
   color: rgb(240, 240, 240);
 }
 
-.menu ul li a:hover {
+#menu ul li a:hover {
   color: #fdd700;
 }
 
-
-.menu ul li a:active,
+#menu ul li a:active,
 a:focus {
   color: #ff0000 !important;
 }
 
+.login-cart{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  padding-right: 20px;
+}
 
-.login,
-.carrinho {
+.login, .carrinho {
   height: 1.5rem;
 }
 
@@ -87,7 +101,6 @@ a:focus {
   max-width: 1300px;
   margin: auto;
   padding-top: 200px;
-
 }
 
 .texto-header h3 {
@@ -97,7 +110,6 @@ a:focus {
   text-shadow: 3px 4px 0 #443a01;
   padding: 5px 10px;
   border-left: 8px solid #ff0000;
-
 }
 
 .texto-header-index {
@@ -233,3 +245,4 @@ a:focus {
   box-shadow: 0 0 6px #000000;
 
 }
+
