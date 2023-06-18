@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/login.css">
+    <link rel="stylesheet" href="./assets/css/base-responsive.css">
     <script src="./assets/js/login.js"defer></script>
+    <script src="./assets/js/main.js" defer></script>
     <link rel="shortcut icon" href="./assets/img/bom-burguer-icon.ico" type="image/x-icon">
     <title>Login</title>
 </head>
@@ -17,9 +19,8 @@
             <div class="logo"> 
                 <a href="./index.html"><img class="logotipo" src="./assets/img/Bom Burguer Logotipo.png" alt="Bom Burguer Logotipo"></a>
             </div>
-
             <div class="menu-section">
-                <nav class="menu">
+                <nav id="menu">
                     <ul>
                         <li><a href="./index.html">Home</a></li>
                         <li><a href="./cardapio.html">Cardápio</a></li>
@@ -29,59 +30,48 @@
                     </ul>
                 </nav>
             </div>
-
             <div class="login-cart">
                 <a href="./login.html" title="Faça Login"><img class="login" src="./assets/img/img-login.png" alt="Login"></a>
                 <a href="./carrinho.html" title="Carrinho"><img class="carrinho" src="./assets/img/img-carrinho.png" alt="Carrinho"></a>
+                <button id="icon-menu" onclick="showMenu();">&#9776;</button>
             </div>
         </div>
-
         <div class="texto-header">
             <h3>Login</h3>
         </div>
-
-       
     </header>
 
     <main>
 
         <div class="content_login">
-
-        <section class="tela_login">
-            <div class="titulo-login">
-                <h2>Login Do Cliente</h2>
-            </div>
-            <form class="form-login" action="#">
-                <div class="campo-ast">
-                    <span><sup>*</sup></span>
-                    <label for="email" id="emailLabel">Email:</label>
+            <section class="tela_login">
+                <div class="titulo-login">
+                    <h2>Login Do Cliente</h2>
                 </div>
-                <input type="email" id="email_login" name="email_login" required placeholder="nome@email.com"><br>
-                <p id="email-helper" class="helper-text">Mensagem de ajuda</p>
-                <div class="campo-ast">
-                    <span><sup>*</sup></span>
-                    <label for="senha">Senha:</label>
-                </div>
-                <input type="password" id="senha" name="pass" required placeholder="12345"><br>
-                <p id="senha-helper" class="helper-text">Mensagem de ajuda</p>
-                <button type="submit" id="submit_login">Continuar</button>
-            </form>
-            <p>Não tem cadastro? <a href="./cadastro.html">Cadastre-se</a></p>
-            <p> <a href="./recuperar-senha.html">Esqueci minha senha</a></p>       
-        </section>
-
+                <form class="form-login" action="#">
+                    <div class="campo-ast">
+                        <span><sup>*</sup></span>
+                        <label for="email" id="emailLabel">Email:</label>
+                    </div>
+                    <input type="email" id="email_login" name="email_login" required placeholder="nome@email.com"><br>
+                    <p id="email-helper" class="helper-text">Mensagem de ajuda</p>
+                    <div class="campo-ast">
+                        <span><sup>*</sup></span>
+                        <label for="senha">Senha:</label>
+                    </div>
+                    <input type="password" id="senha" name="pass" required placeholder="12345"><br>
+                    <p id="senha-helper" class="helper-text">Mensagem de ajuda</p>
+                    <button type="submit" id="submit_login">Continuar</button>
+                </form>
+                <p>Não tem cadastro? <a href="./cadastro.html">Cadastre-se</a></p>
+                <p> <a href="./recuperar-senha.html">Esqueci minha senha</a></p>       
+            </section>
        </div>
-  
-
-
-     
 
     </main>
 
     <footer class="footer">
-
       <section class="footer-content"> 
-
         <div class="redes-sociais">
             <h3>Redes Sociais</h3>
             <ul>
@@ -92,7 +82,6 @@
                 <li><a href="#" target="_blank" title="Youtube"><img src="./assets/img/img-social-youtube.png" width="40px" height="40px"></a></li>
             </ul>
         </div>
-
         <div class="footer-links">
             <h3>Informações</h3>
             <ul>
@@ -100,7 +89,6 @@
                 <li><a href="#" target="_blank" >Seja Um Franqueado</a></li>
             </ul>
         </div>
-
         <div class="news-letter">
             <h3>
                 Inscreva-se e Receba Nossas Ofertas
@@ -110,11 +98,8 @@
                 <button type="submit">Enviar</button>
             </form>
         </div>
-
       </section>
-
     </footer>
-    <script src="./assets/js/main.js"></script>
 </body>
 </section>
 

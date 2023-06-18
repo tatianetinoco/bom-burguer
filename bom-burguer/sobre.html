@@ -6,8 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./assets/css/base.css">
         <link rel="stylesheet" href="./assets/css/sobre.css">
-        <link rel="shortcut icon" href="./assets/img/bom-burguer-icon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="./assets/css/base-responsive.css">
+        <script src="./assets/js/main.js" defer></script>
         <script src="./assets/js/sobre.js" defer> </script>
+        <link rel="shortcut icon" href="./assets/img/bom-burguer-icon.ico" type="image/x-icon">
         <title>Sobre</title>
     </head>
 <body>
@@ -19,7 +21,7 @@
             </div>
 
             <div class="menu-section">
-                <nav class="menu">
+                <nav id="menu">
                     <ul>
                         <li><a href="./index.html">Home</a></li>
                         <li><a href="./cardapio.html">Cardápio</a></li>
@@ -30,9 +32,10 @@
                 </nav>
             </div>
 
-            <div>
+            <div class="login-cart">
                 <a href="./login.html" title="Faça Login"><img class="login" src="./assets/img/img-login.png" alt="Login"></a>
                 <a href="./carrinho.html" title="Carrinho"><img class="carrinho" src="./assets/img/img-carrinho.png" alt="Carrinho"></a>
+                <button id="icon-menu" onclick="showMenu();">&#9776;</button>
             </div>
         </div>
 
@@ -77,7 +80,6 @@
                 <li><a href="#" target="_blank" >Seja Um Franqueado</a></li>
             </ul>
         </div>
-
         <div class="news-letter">
             <h3>
                 Inscreva-se e Receba Nossas Ofertas
@@ -88,9 +90,7 @@
             </form>
         </div>
       </section>
-
     </footer>
-    <script src="./assets/js/main.js"></script>
  </body>
 </section>
 

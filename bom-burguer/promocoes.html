@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/base.css">
-    <link rel="stylesheet" href="./assets/css/promocoes.css">
-    <link rel="shortcut icon" href="./assets/img/bom-burguer-icon.ico" type="image/x-icon">
-    <script src="./assets/js/promocoes.js" defer> </script>
-    <title>Promoções</title>
-</head>
-
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/css/base.css">
+        <link rel="stylesheet" href="./assets/css/promocoes.css">
+        <link rel="stylesheet" href="./assets/css/base-responsive.css">
+        <script src="./assets/js/main.js" defer></script>
+        <script src="./assets/js/promocoes.js" defer> </script>
+        <link rel="shortcut icon" href="./assets/img/bom-burguer-icon.ico" type="image/x-icon">
+        <title>Promoções</title>
+    </head>
 <body>
     <section class="content-all">
         <header class="header">
@@ -22,23 +22,21 @@
                 </div>
 
                 <div class="menu-section">
-                    <nav class="menu">
+                    <nav id="menu">
                         <ul>
                             <li><a href="./index.html">Home</a></li>
-                            <li><a href="./sobre.html">Sobre</a></li>
                             <li><a href="./cardapio.html">Cardápio</a></li>
                             <li><a href="./promocoes.html">Promoções</a></li>
+                            <li><a href="./sobre.html">Sobre</a></li>
                             <li><a href="./contato.html">Contato</a></li>
                         </ul>
                     </nav>
                 </div>
 
                 <div class="login-cart">
-
-                    <a href="./login.html" title="Faça Login"><img class="login" src="./assets/img/img-login.png"
-                            alt="Login"></a>
-                    <a href="./carrinho.html" title="Carrinho"><img class="carrinho" src="./assets/img/img-carrinho.png"
-                            alt="Carrinho"></a>
+                    <a href="./login.html" title="Faça Login"><img class="login" src="./assets/img/img-login.png" alt="Login"></a>
+                    <a href="./carrinho.html" title="Carrinho"><img class="carrinho" src="./assets/img/img-carrinho.png" alt="Carrinho"></a>
+                    <button id="icon-menu" onclick="showMenu();">&#9776;</button>
                 </div>
             </div>
 
@@ -60,8 +58,8 @@
         <main>
 
             <section class="promocoes">
-                <section class="test">
 
+                <section class="test">
                     <div class="titulo-promocao-1">
                         <h3 class="promotitle">Promoção 01</h3>
                     </div>
@@ -80,11 +78,11 @@
                                 <button class="button">
                                     <a href="#">Comprar</a>
                                 </button>
+                            </div>
 
                         </div>
                     </div>
                 </section>
-
 
                 <section class="test">
 
@@ -111,6 +109,7 @@
 
                     </div>
                 </section>
+
                 <section class="test">
 
                     <div class="titulo-promocao">
@@ -135,7 +134,7 @@
                         </div>
                     </div>
                 </section>
-
+            </section>
 
         </main>
 
@@ -178,9 +177,7 @@
                 </div>
 
             </section>
-
         </footer>
-        <script src="./assets/js/main.js"></script>
 </body>
 </section>
 
