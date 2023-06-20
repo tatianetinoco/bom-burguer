@@ -210,6 +210,7 @@ a:focus {
 .news-letter {
   text-align: center;
   max-width: 500px;
+  padding: 0 20px;
 }
 
 .news-letter h3 {

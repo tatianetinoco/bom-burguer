@@ -1,0 +1,101 @@
+/* Página Login */
+@media (max-width: 410px){
+
+  .form-login input{
+   width: 300px;  
+} 
+}
+
+@media (max-width: 320px){
+  .form-login input{
+   width: 270px;  
+} 
+}
+
+/* Cardápio */
+
+@media (max-width: 920px){
+
+  .titulo-menu h3{
+    text-align: center;
+  }
+} 
+
+@media (max-width: 510px){
+
+  .titulo-menu h3{
+    text-align: center;
+    padding: 0 10px;
+  }
+
+} 
+
+
+@media (max-width: 320px){
+
+  .titulo-menu h3{
+    text-align: center;
+    font-size: 30px; 
+  }
+} 
+
+
+/* Sobre */
+
+@media (max-width: 920px){
+
+  .content-main-sobre{
+    padding: 0 20px 80px;
+  }
+} 
+
+@media (max-width: 420px){
+
+  .content-main-sobre h3{
+    font-size: 25px;
+   
+  }
+
+  .content-main-sobre p{
+    font-size: 20px;
+    line-height: 30px;
+  }
+} 
+
+@media (max-width: 320px){
+
+  .content-main-sobre h3{
+    font-size: 20px;
+    padding-top: 30px;
+  }
+
+  .content-main-sobre p{
+    font-size: 15px;
+    line-height: 20px;
+  }
+} 
+
+
+
+/* Recuperar Senha */
+
+@media (max-width: 420px){
+
+  .texto-recuperar-senha h2{
+    text-align: center;
+    font-size: 1.5rem; 
+ }
+
+ .texto-recuperar-senha p{
+  font-size: 1rem;
+}
+
+  .content-form-recuperar-senha{
+    width: 90%;
+ }
+
+ .campo-email-recuperar-senha input{
+  font-size: 50%;
+ }
+
+} 

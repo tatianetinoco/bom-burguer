@@ -8,12 +8,12 @@ header{
  .conteudo-recuperar-senha{
    max-width: 1300px;
    margin: 0 auto;
-    padding-bottom: 100px;
+   padding: 50px 20px;
  } 
 
  .texto-recuperar-senha{
     margin-bottom: 20px;
-    padding: 50px 0 30px ;
+    padding: 0px 0 30px ;
  }
 
 
