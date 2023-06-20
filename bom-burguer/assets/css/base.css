@@ -165,6 +165,8 @@ a:focus {
 
 .redes-sociais ul {
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 5%;
 }
 
@@ -216,6 +218,10 @@ a:focus {
   margin-bottom: 1rem;
 }
 
+.form-content{
+  display: flex;
+  gap: 15px;
+}
 
 .form-content input {
   border: 0;
