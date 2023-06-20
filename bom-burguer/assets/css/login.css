@@ -12,7 +12,7 @@ main{
     }
 
 .content_login{
-    padding: 50px 0 100px 0;
+    padding: 50px 20px 100px 20px;
     max-width: 1300px;
     margin: 0 auto;
 }
@@ -24,7 +24,8 @@ main{
     flex-direction: column;
     align-items: center;
     align-content: center;
-    width: 600px;
+    max-width: 600px;
+    min-width: 300px;
     height: 400px;
     border-radius: 20px;
     margin: auto;
@@ -139,3 +140,5 @@ p{
   .visible {
     display: block;
   }
+
+
