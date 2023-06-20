@@ -1,5 +1,9 @@
 header {
-    height: 67rem;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url(../img/img-banner-promocoes.jpg);
+    background-size: cover;
+    background-position: center;
+
 }
 
 
