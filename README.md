@@ -17,7 +17,7 @@
 
   
 
-  #### :point_right: Paleta de Cores
+  #### :art: Paleta de Cores
 
 ![Logo Bom Burguer](https://raw.githubusercontent.com/tatianetinoco/projeto-integrador-proz-educacao-2023/main/bom-burguer/assets/img/paletta-bom-burguer.png)
 
@@ -35,6 +35,12 @@
   - Carrinho
 
   
+
+  #### :file_folder: Banco de Dados
+  -  [BD Diagrama](https://docs.google.com/drawings/d/1PGSVqI3-jpQcSgwRRyBg91Fzr6lC2XWEz5JAq24OBY8/edit?usp=sharing "Diagrama")
+    -  [BD Tabelas](https://docs.google.com/drawings/d/1PGSVqI3-jpQcSgwRRyBg91Fzr6lC2XWEz5JAq24OBY8/edit?usp=sharing "Tabelas")
+
+
 
   #### :star: Equipe
 
