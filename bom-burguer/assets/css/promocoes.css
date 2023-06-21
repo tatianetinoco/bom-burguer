@@ -24,7 +24,8 @@ main {
     border-radius: 35px;
     width: 80%;
     height: 50%;
-    gap: 35px
+    gap: 35px;
+    padding: 80px;
 }
 
 .test {
@@ -141,5 +142,5 @@ h3 {
 }
 
 img {
-    width: 100%
+    width: 98%
 }

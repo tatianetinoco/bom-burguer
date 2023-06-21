@@ -121,3 +121,23 @@ table tfoot td {
     background-color: #05A84B;
     border: 3px solid #00662c;
 }
+#quantidade-produto-01{
+    width: 40px;
+    height: 25px;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+#btnAdd{
+    width: 30px;
+}
+
+#btnSub{
+    width: 30px;
+}
+
+#remove{
+    font-weight: 800;
+    color: red;
+}
