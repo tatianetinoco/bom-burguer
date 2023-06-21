@@ -139,6 +139,11 @@ h3 {
 .img-card {
     display: flex;
     float: left;
+    transition: all 0.2s;
+}
+
+.img-card img:hover {
+    scale: 1.1;
 }
 
 img {
