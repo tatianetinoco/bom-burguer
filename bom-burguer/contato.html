@@ -45,35 +45,38 @@
     </header>
 
     <main>
-        <section id = "contato">
-            <h2>Formulário De Contato</h2>
-            <form action="">
-                <label for="nome">Nome Completo: </label>
-                <input type="text" id="nome"
-                 name="nome">
-                <p class="error-text">"Digite o nome completo"</p>
-                <br>
-                <br>
-                <label for="email">Email: </label>
-                <input type="email" id="email"
-                 name="email">
-                 <p class="error-text">"Email incorreto"</p>
-                <br>
-                <label for="telefone">Telefone: </label>
-                <input type="tel" id="telefone"
-                 name="telefone">
-                <p class="error-text">"Telefone incorreto"</p>
-                <br>
-                <br>
-                <textArea class="msg-contato" placeholder="Deixe sua mensagem" cols="40" rows="10"></textarea>
-                <br>
-                <button type="button">Enviar</button>
-            </form>
+        <section class = "contato">
+            <p>Qualquer duvida, sugestao, critica ou mensagem, entre em contato pelo formulario abaixo. Iremos atende-lo o mais breve e da melhor forma possivel. Obrigado!</p>
         </section>
-            <section class="mapa-contato">
-                <h2>Nosso Endereço</h2>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15004.501152967428!2d-43.94892884965009!3d-19.919124503467113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa699fb595bab33%3A0xca642ca01121d880!2sPra%C3%A7a%20Sete%20de%20Setembro!5e0!3m2!1spt-BR!2sbr!4v1681333062953!5m2!1spt-BR!2sbr" width="100%" height="450px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
+        
+        <section class="content-contato-mapa">
+            <section class="conteudo_cadastro">
+                <form  action="">
+                   <h2>Formulário De Contato</h2>
+                   <label class="label-contato"for="nome">Nome Completo*: </label>
+                   <input class="input-contato"type="text"name="nome"id="nome" required minlength="6"maxlenght="30"placeholder="Digite seu nome completo">
+                   <br>
+                   <label class="label-contato" for="email" id="emailLabel"> Email</label>
+                   <input class="input-contato"type="email" name="email"id="email" required placeholder="Digite seu Email">
+                   <br>
+                   <label class="label-contato"for="telefone">Telefone</label>
+                   <input class="input-contato"type="tel"name="telefone" id="telefone" minlength="8"maxlenght="11" required placeholder:"(_) __-__">
+                   <br>
+                   <select class="selecao-form-contato" name="assunto da mensagem">
+                    <option value="escolher"value=""disabled selected>Escolher assunto:</option>
+                    <option value="informação">Informação</option>
+                    <option value="duvida">Duvida</option>
+                    <option value="sugestao">Sugestão</option>
+                    <option value="Franquia">Franquia</option>
+                    <option value="Cadastro">Perdi acesso ao meu cadastro</option>
+                    </select>
+                    <textarea class="msg-contato" id="menssagem"required minlength="30"maxlenght="300" placeholder="="Deixe a sua mensagem" cols="40" rows="10"></textarea>
+                    <br>
+                    <button id="btn-contato-enviar" type="submit">Enviar</button>
+                </form>
+             </section>
+             </section>
+            </section>
     </main>
     
     <footer class="footer">
