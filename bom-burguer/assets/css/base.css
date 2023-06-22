@@ -38,6 +38,7 @@ header {
   position: fixed;
   width: 100%;
   z-index: 1;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .logotipo {
@@ -155,10 +156,10 @@ a:focus {
   display: flex;
   gap: 10%;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
   line-height: 1.6;
-  padding: 2rem 0;
-  height: 15rem;
+  height: 10rem;
+  padding-top: 20px;
   max-width: 1300px;
   margin: auto;
 }
@@ -250,6 +251,12 @@ a:focus {
 
 .form-content button:hover {
   box-shadow: 0 0 6px #000000;
+}
 
+.footer-bottom{
+  text-align: center;
+  font-size: 14px;
+  color: #4c5981;
+  padding: 10px 10px 0;
 }
 

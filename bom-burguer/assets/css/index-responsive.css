@@ -1,4 +1,17 @@
+@media (max-width: 1012px) {
+  .secao-cta-title p{
+    font-size: 3rem;
+}
+
+.secao-cta-title h2{
+    font-size: 4rem;
+}
+}
+
+
+
 @media (max-width: 992px) {
+ 
   .banner-content{
     flex-direction: column-reverse;
     height: 100%;

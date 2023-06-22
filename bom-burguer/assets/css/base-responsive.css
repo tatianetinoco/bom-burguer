@@ -38,6 +38,8 @@
 
   .footer-content{
     flex-direction: column;
+    align-items: center;
+    text-align: center;
     height: 100%;
   } 
 
@@ -54,7 +56,9 @@
 
   .footer{
     display: flex;
-    align-items: end;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
  
 }
