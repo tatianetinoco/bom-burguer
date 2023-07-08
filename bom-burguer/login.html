@@ -1,111 +1,107 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/base.css">
-    <link rel="stylesheet" href="./assets/css/login.css">
-    <link rel="stylesheet" href="./assets/css/responsive.css">
-    <link rel="stylesheet" href="./assets/css/base-responsive.css">
-    <script src="./assets/js/login.js"defer></script>
-    <script src="./assets/js/main.js" defer></script>
-    <link rel="shortcut icon" href="./assets/img/bom-burguer-icon.ico" type="image/x-icon">
-    <title>Login</title>
-</head>
-<body>
-  <section class="content-all"> 
-    <header class="header">
-        <div class="header-content">
-            <div class="logo"> 
-                <a href="./index.html"><img class="logotipo" src="./assets/img/Bom Burguer Logotipo.png" alt="Bom Burguer Logotipo"></a>
-            </div>
-            <div class="menu-section">
-                <nav id="menu">
-                    <ul>
-                        <li><a href="./index.html">Home</a></li>
-                        <li><a href="./cardapio.html">Cardápio</a></li>
-                        <li><a href="./promocoes.html">Promoções</a></li>
-                        <li><a href="./sobre.html">Sobre</a></li>
-                        <li><a href="./contato.html">Contato</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="login-cart">
-                <a href="./login.html" title="Faça Login"><img class="login" src="./assets/img/img-login.png" alt="Login"></a>
-                <a href="./carrinho.html" title="Carrinho"><img class="carrinho" src="./assets/img/img-carrinho.png" alt="Carrinho"></a>
-                <button id="icon-menu" onclick="showMenu();">&#9776;</button>
-            </div>
-        </div>
-        <div class="texto-header">
-            <h3>Login</h3>
-        </div>
-    </header>
-
-    <main>
-
-        <div class="content_login">
-            <section class="tela_login">
-                <div class="titulo-login">
-                    <h2>Login Do Cliente</h2>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/css/base.css">
+        <link rel="stylesheet" href="./assets/css/login.css">
+        <link rel="stylesheet" href="./assets/css/responsive.css">
+        <link rel="stylesheet" href="./assets/css/base-responsive.css">
+        <script src="./assets/js/login.js"defer></script>
+        <script src="./assets/js/main.js" defer></script>
+        <link rel="shortcut icon" href="./assets/img/bom-burguer-icon.ico" type="image/x-icon">
+        <title>Login</title>
+    </head>
+    <body>
+    <section class="content-all"> 
+        <header class="header">
+            <div class="header-content">
+                <div class="logo"> 
+                    <a href="./index.html"><img class="logotipo" src="./assets/img/Bom Burguer Logotipo.png" alt="Bom Burguer Logotipo"></a>
                 </div>
-                <form class="form-login" action="#">
-                    <div class="campo-ast">
-                        <span><sup>*</sup></span>
-                        <label for="email" id="emailLabel">Email:</label>
+                <div class="menu-section">
+                    <nav id="menu">
+                        <ul>
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="./cardapio.html">Cardápio</a></li>
+                            <li><a href="./promocoes.html">Promoções</a></li>
+                            <li><a href="./sobre.html">Sobre</a></li>
+                            <li><a href="./contato.html">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="login-cart">
+                    <a href="./login.html" title="Faça Login"><img class="login" src="./assets/img/img-login.png" alt="Login"></a>
+                    <a href="./carrinho.html" title="Carrinho"><img class="carrinho" src="./assets/img/img-carrinho.png" alt="Carrinho"></a>
+                    <button id="icon-menu" onclick="showMenu();">&#9776;</button>
+                </div>
+            </div>
+            <div class="texto-header">
+                <h3>Login</h3>
+            </div>
+        </header>
+
+        <main>
+            <div class="content_login">
+                <section class="tela_login">
+                    <div class="titulo-login">
+                        <h2>Login Do Cliente</h2>
                     </div>
-                    <input type="email" id="email_login" name="email_login" required placeholder="nome@email.com"><br>
-                    <p id="email-helper" class="helper-text">Mensagem de ajuda</p>
-                    <div class="campo-ast">
-                        <span><sup>*</sup></span>
-                        <label for="senha">Senha:</label>
-                    </div>
-                    <input type="password" id="senha" name="pass" required placeholder="12345"><br>
-                    <p id="senha-helper" class="helper-text">Mensagem de ajuda</p>
-                    <button type="submit" id="submit_login">Continuar</button>
+                    <form class="form-login" action="#">
+                        <div class="campo-ast">
+                            <span><sup>*</sup></span>
+                            <label for="email" id="emailLabel">Email:</label>
+                        </div>
+                        <input type="email" id="email_login" name="email_login" required placeholder="nome@email.com"><br>
+                        <p id="email-helper" class="helper-text">Mensagem de ajuda</p>
+                        <div class="campo-ast">
+                            <span><sup>*</sup></span>
+                            <label for="senha">Senha:</label>
+                        </div>
+                        <input type="password" id="senha" name="pass" required placeholder="12345"><br>
+                        <p id="senha-helper" class="helper-text">Mensagem de ajuda</p>
+                        <button type="submit" id="submit_login">Continuar</button>
+                    </form>
+                    <p>Não tem cadastro? <a href="./cadastro.html">Cadastre-se</a></p>
+                    <p> <a href="./recuperar-senha.html">Esqueci minha senha</a></p>       
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+        <section class="footer-content"> 
+            <div class="redes-sociais">
+                <h3>Redes Sociais</h3>
+                <ul>
+                    <li><a href="#" target="_blank" title="Facebook"><img src="./assets/img/img-social-fb.png" width="40px" height="40px"></a></li>
+                    <li><a href="#" target="_blank" title="Instagram"><img src="./assets/img/img-social-instagram.png" width="40px" height="40px"></a></li>
+                    <li><a href="#" target="_blank" title="Linkedin"><img src="./assets/img/img-social-linkedIn.png" width="40px" height="40px"></a></li>
+                    <li><a href="#" target="_blank" title="Twitter"><img src="./assets/img/img-social-twitter.png" width="40px" height="40px"></a></li>
+                    <li><a href="#" target="_blank" title="Youtube"><img src="./assets/img/img-social-youtube.png" width="40px" height="40px"></a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h3>Desenvolvedores</h3>
+                <ul>
+                    <li><a href="https://github.com/riversdev42" target="_blank">Riverson Morais</a></li>
+                    <li><a href="https://github.com/vivifares1" target="_blank">Vivien Fares</a></li>
+                    <li><a href="https://github.com/tatianetinoco" target="_blank">Tatiane Tinoco</a></li>
+                </ul>
+            </div>
+            <div class="news-letter">
+                <h3>
+                    Inscreva-se e Receba Nossas Ofertas
+                </h3>
+                <form class="form-content">
+                    <input id="email" type="email" required placeholder="Digite Seu E-mail">
+                    <button type="submit">Enviar</button>
                 </form>
-                <p>Não tem cadastro? <a href="./cadastro.html">Cadastre-se</a></p>
-                <p> <a href="./recuperar-senha.html">Esqueci minha senha</a></p>       
-            </section>
-       </div>
-
-    </main>
-
-    <footer class="footer">
-      <section class="footer-content"> 
-        <div class="redes-sociais">
-            <h3>Redes Sociais</h3>
-            <ul>
-                <li><a href="#" target="_blank" title="Facebook"><img src="./assets/img/img-social-fb.png" width="40px" height="40px"></a></li>
-                <li><a href="#" target="_blank" title="Instagram"><img src="./assets/img/img-social-instagram.png" width="40px" height="40px"></a></li>
-                <li><a href="#" target="_blank" title="Linkedin"><img src="./assets/img/img-social-linkedIn.png" width="40px" height="40px"></a></li>
-                <li><a href="#" target="_blank" title="Twitter"><img src="./assets/img/img-social-twitter.png" width="40px" height="40px"></a></li>
-                <li><a href="#" target="_blank" title="Youtube"><img src="./assets/img/img-social-youtube.png" width="40px" height="40px"></a></li>
-            </ul>
-        </div>
-        <div class="footer-links">
-            <h3>Desenvolvedores</h3>
-            <ul>
-                <li><a href="https://github.com/riversdev42" target="_blank">Riverson Morais</a></li>
-                <li><a href="https://github.com/vivifares1" target="_blank">Vivien Fares</a></li>
-                <li><a href="https://github.com/tatianetinoco" target="_blank">Tatiane Tinoco</a></li>
-            </ul>
-        </div>
-        <div class="news-letter">
-            <h3>
-                Inscreva-se e Receba Nossas Ofertas
-            </h3>
-            <form class="form-content">
-                <input id="email" type="email" placeholder="Digite Seu E-mail">
-                <button type="submit">Enviar</button>
-            </form>
-        </div>
-      </section>
-        <div class="footer-bottom">
-            Bom Burguer - Todos os direitos Reservados - 2023
-        </div>
-    </footer>
-</body>
-</section>
-
+            </div>
+        </section>
+            <div class="footer-bottom">
+                Bom Burguer - Todos os direitos Reservados - 2023
+            </div>
+        </footer>
+    </section>
+    </body>
 </html>

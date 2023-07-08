@@ -1,75 +1,60 @@
-console.log("hello word!");
-let test = document.getElementsByClassName("promocoes");
-console.log(test)
-const arrayCards = [
+const cardsPromo = [
     {
-        promotitle: "Promoção 01",
-        h3card: "Combo Diamante",
-        descricao: "Delicioso hamburguer de carne bovina com queijo gorgonzola e bacon",
-        imgCard: "./assets/img/img-promo-um.png",
-        preco: "R$33",
-        button:"Comprar"
+        titulo: "Combo Double Fritas",
+        descricao: "Delicioso hamburguer duplo de carne bovina com queijo reino cheddar e bacon. Acompanha batata frita, refrigerante e milkshake",
+        img: "./assets/img/img-promo-dois.png",
+        preco: "R$23",
+        button:"Add To Cart"
      },
     {
-        promotitle: "Promoção 02",
-        h3card: "Combo Ruby",
-        descricao: "Delicioso hamburguer de carne bovina com queijo reino e bacon",
-        imgCard: "./assets/img/img-promo-dois.png",
-        preco: "R$26",
-        button: "Comprar"
+        titulo: "Combo Triple Burger",
+        descricao: "Delicioso hamburguer de carne bovina com queijo reino cheddar e bacon. Acompanha batata frita e refrigerante",
+        img: "./assets/img/img-promo-um.png",
+        preco: "R$28",
+        button:"Add To Cart"
     },
     {
-        promotitle: "Promoção 03",
-        h3card: "Combo Esmeralda",
-        descricao: "Delicioso hamburguer de carne bovina com queijo reino cheddar e bacon",
-        imgCard: "./assets/img/img-promo-um.png",
-        preco: "R$41",
-        button: "Comprar"
+        titulo: "Combo Veggie Burger",
+        descricao: "Delicioso hamburguer vegano com hamburguer vegetal de quinoa. Acompanha suco e salada de frutas",
+        img: "./assets/img/img-promo-quatro.png",
+        preco: "R$32",
+        button:"Add To Cart"
     },
     {
-        promotitle: "Promoção 04",
-        h3card: "Combo Ametista",
-        descricao: "Delicioso hamburguer de carne bovina com queijo suiço e bacon",
-        imgCard:"./assets/img/img-promo-tres.png",
-        preco: "R$23",
-        button:"Comprar"
+        titulo: "Combo Burguer Family",
+        descricao: "Combo tamanho família. Com 4 Hamburgueres, 4 batata fritas e um refrigerante 2 litros",
+        img:"./assets/img/img-promo-tres.png",
+        preco: "R$39",
+        button:"Add To Cart"
     }
 ]
 
-for (let i = 0; i < arrayCards.length; i++){
-    //criar o elemento
-    let section = document.createElement("section")
+for (let i = 0; i < cardsPromo.length; i++){
+   
+    const div = document.createElement('div');
+    div.classList.add("card__body");
 
-    //manipular o elemnto
-
-    section.innerHTML = `
-        <section class="test">
-            <div class="titulo-promocao-1">
-                <h3 class="promotitle"> ${arrayCards[i].promotitle}</h3>
-            </div>
-            <div class="promocao">
-                <div class="img-card">
-                    <img src=${arrayCards[i].imgCard}>
+    div.innerHTML = `
+            <div class="card__content__all">
+                <div class="card__img">
+                    <img src=${cardsPromo[i].img}>
                 </div>
-                <div class="card-preco">
+                <div class="card__descricao__preco">
                     <div>
-                        <h3 class="h3card"> ${arrayCards[i].h3card}</h3>
-                        <p class="descricao"> ${arrayCards[i].descricao}</p>
+                        <h3 class="card__titulo">${cardsPromo[i].titulo}</h3>
+                        <p class="card__descricao">${cardsPromo[i].descricao}</p>
                     </div>
-                    <div class="preco-compra">
-                        <div class="preco"> ${arrayCards[i].preco}</div>
-                        <button class="button">
-                            <a href="#"> ${arrayCards[i].button}</a>
+                    <div class="preco__btn">
+                        <div class="card__preco">${cardsPromo[i].preco}</div>
+                        <button class="card__btn">
+                            <a href="#">${cardsPromo[i].button}</a>
                         </button>
                     </div>
                 </div>
-        </section>`
+            </div> 
+    `    
 
-    console.log(section)
-
-    //Adicionar o elemento
-
-    let promocoes = document.querySelector("section.promocoes")
-    promocoes.appendChild(section)
+    const section = document.getElementsByClassName('cards__promo')[0];
+    section.appendChild(div)
 
 }

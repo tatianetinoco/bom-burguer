@@ -45,38 +45,44 @@
     </header>
 
     <main>
-        <section class = "contato">
-            <p>Qualquer duvida, sugestao, critica ou mensagem, entre em contato pelo formulario abaixo. Iremos atende-lo o mais breve e da melhor forma possivel. Obrigado!</p>
+        <section class="texto-contato"> 
+            <p>Qualquer dúvida, sugestão, crítica ou mensagem, entre em contato conosco pelo formulário abaixo que vamos atendê-lo o mais breve e da melhor forma possível.</p>
         </section>
-        
+
         <section class="content-contato-mapa">
+
             <section class="conteudo_cadastro">
-                <form  action="">
-                   <h2>Formulário De Contato</h2>
-                   <label class="label-contato"for="nome">Nome Completo*: </label>
-                   <input class="input-contato"type="text"name="nome"id="nome" required minlength="6"maxlenght="30"placeholder="Digite seu nome completo">
-                   <br>
-                   <label class="label-contato" for="email" id="emailLabel"> Email</label>
-                   <input class="input-contato"type="email" name="email"id="email" required placeholder="Digite seu Email">
-                   <br>
-                   <label class="label-contato"for="telefone">Telefone</label>
-                   <input class="input-contato"type="tel"name="telefone" id="telefone" minlength="8"maxlenght="11" required placeholder:"(_) __-__">
-                   <br>
-                   <select class="selecao-form-contato" name="assunto da mensagem">
-                    <option value="escolher"value=""disabled selected>Escolher assunto:</option>
-                    <option value="informação">Informação</option>
-                    <option value="duvida">Duvida</option>
-                    <option value="sugestao">Sugestão</option>
-                    <option value="Franquia">Franquia</option>
-                    <option value="Cadastro">Perdi acesso ao meu cadastro</option>
-                    </select>
-                    <textarea class="msg-contato" id="menssagem"required minlength="30"maxlenght="300" placeholder="="Deixe a sua mensagem" cols="40" rows="10"></textarea>
+                <form action="">
+                    <h2>Formulário De Contato</h2>
+                    <label class="label-contato" for="nome">Nome* </label>
+                    <input class="input-contato" type="text" name="nome" id="nome" required minlength="4" maxlength="30" placeholder="Digite Seu Nome">
+                    <br>
+                    <label class="label-contato"  for="email" id="emailLabel">Email* </label>
+                    <input class="input-contato" type="email" name="email" id="email" required placeholder="Digite Seu Email">
+                    <br>
+                    <label class="label-contato"  for="telefone">Telefone: </label>
+                    <input class="input-contato"  type="tel" name="telefone" id="telefone" minlength="8" maxlength="11" required placeholder="(_) __-__">
+                    <br>
+                    <select class="selecao-form-contato" name="assunto da mensagem">
+                        <option value="escolher" value="" disabled selected>Escolher Assunto:</option>
+                        <option value="informação" >Informação</option>
+                        <option value="dúvida">Dúvida</option>
+                        <option value="sugestão">Sugestão</option>
+                        <option value="Franquia">Franquia</option>
+                        <option value="Cadastro">Perdi acesso ao meu cadastro</option>
+                      </select>
+                    <textarea class="msg-contato" id="message" required minlength="30" maxlength="300" placeholder="Deixe sua mensagem" cols="40" rows="10"></textarea>
                     <br>
                     <button id="btn-contato-enviar" type="submit">Enviar</button>
                 </form>
-             </section>
-             </section>
             </section>
+
+            <section class="mapa">
+                <h2>Nosso Endereço:</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15004.501152967428!2d-43.94892884965009!3d-19.919124503467113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa699fb595bab33%3A0xca642ca01121d880!2sPra%C3%A7a%20Sete%20de%20Setembro!5e0!3m2!1spt-BR!2sbr!4v1681333062953!5m2!1spt-BR!2sbr" width="100%" height="450px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+        </section>
+    
     </main>
     
     <footer class="footer">
@@ -84,11 +90,11 @@
         <div class="redes-sociais">
             <h3>Redes Sociais</h3>
             <ul>
-                <li><a href="#" target="_blank" title="Facebook"><img src="./assets/img/img-social-fb.png" width="32px" height="32px"></a></li>
-                <li><a href="#" target="_blank" title="Instagram"><img src="./assets/img/img-social-instagram.png" width="32px" height="32px"></a></li>
-                <li><a href="#" target="_blank" title="Linkedin"><img src="./assets/img/img-social-linkedIn.png" width="32px" height="32px"></a></li>
-                <li><a href="#" target="_blank" title="Twitter"><img src="./assets/img/img-social-twitter.png" width="32px" height="32px"></a></li>
-                <li><a href="#" target="_blank" title="Youtube"><img src="./assets/img/img-social-youtube.png" width="32px" height="32px"></a></li>
+                <li><a href="#" target="_blank" title="Facebook"><img src="./assets/img/img-social-fb.png" width="40px" height="40px"></a></li>
+                <li><a href="#" target="_blank" title="Instagram"><img src="./assets/img/img-social-instagram.png" width="40px" height="40px"></a></li>
+                <li><a href="#" target="_blank" title="Linkedin"><img src="./assets/img/img-social-linkedIn.png" width="40px" height="40px"></a></li>
+                <li><a href="#" target="_blank" title="Twitter"><img src="./assets/img/img-social-twitter.png" width="40px" height="40px"></a></li>
+                <li><a href="#" target="_blank" title="Youtube"><img src="./assets/img/img-social-youtube.png" width="40px" height="40px"></a></li>
             </ul>
         </div>
         <div class="footer-links">
@@ -104,7 +110,7 @@
                 Inscreva-se e Receba Nossas Ofertas
             </h3>
             <form class="form-content">
-                <input id="email" type="email" placeholder="Digite Seu E-mail">
+                <input id="email" type="email" required placeholder="Digite Seu E-mail">
                 <button type="submit">Enviar</button>
             </form>
         </div>

@@ -19,7 +19,7 @@ header{
     color: rgb(48, 48, 48);
     text-align: center;
     font-size: 1.2rem;
-    padding-top: 120px;
+    padding: 120px 10px 0;
     text-transform: uppercase;
     text-decoration: underline;
     text-decoration-color: #de9116;
@@ -41,18 +41,16 @@ header{
     align-items: center;
     text-align: center;
     border-radius: 8px;
-    width: 380px;
+    width: 100%;
+    max-width: 380px;
     padding: 20px 8px 0 8px;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
-.title-card{
+.title-card h3{
     font-size: 1.8rem;
     color: #9c1c20;
-}
-
-.title-card h3{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;  
 }
 
 .img-card img{
@@ -70,11 +68,12 @@ header{
     cursor: pointer;
     color: white;
     text-transform: uppercase;
-    padding: 4% 4%;
+    padding: 12px;
     margin-bottom: 5%;
     border: 0;
     border-radius: 8px;  
-    width: 40%;
+    width: 100%;
+    max-width: 160px;
 }
 
 .main-card button a{

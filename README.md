@@ -35,13 +35,6 @@
   - Carrinho
 
   
-
-  #### :file_folder: Banco de Dados
-  -  [BD Diagrama](https://docs.google.com/drawings/d/1PGSVqI3-jpQcSgwRRyBg91Fzr6lC2XWEz5JAq24OBY8/edit?usp=sharing "Diagrama")
-    -  [BD Tabelas](https://docs.google.com/drawings/d/1PGSVqI3-jpQcSgwRRyBg91Fzr6lC2XWEz5JAq24OBY8/edit?usp=sharing "Tabelas")
-
-
-
   #### :star: Equipe
 
   -  [Vivien Fares](https://github.com/vivifares1 "Perfil No Github")

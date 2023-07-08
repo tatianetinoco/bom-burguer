@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;700&display=swap');
+
 
 header{
   background-image: linear-gradient( rgba(0,0,0,0.5),rgba(0,0,0,0.2)), url(../img/img-banner-sobre.jpg);
@@ -6,36 +6,28 @@ header{
   background-position: center;
 }
 
-.content-main-sobre{
+.main-content-sobre{
   max-width: 1300px;
   margin: 0 auto;
+  padding: 0 20px 100px;
 }
 
-.content-main-sobre{
-  max-width: 1300px;
-  margin: 0 auto;
-  padding-bottom: 200px;
-}
-
-.content-main-sobre h3{
+.main-content-sobre h3{
   text-align: center;
   word-spacing: 1px;
   letter-spacing: 1px;
-  font-family: 'Fira Sans', sans-serif;
-  color: #00240F;
+  font-family: Montserrat, sans-serif;
   font-size: 30px;
-  border-bottom: solid 2px #bdf1ef;
+  border-bottom: solid 2px #9c1c20;
   padding-top: 80px;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
 }
 
-.content-main-sobre p{
-  font-family: 'Fira Sans', sans-serif;
+.main-content-sobre p{
   font-style: italic;
-  text-align: justify;
-  font-size: 20px;
-  color: #00240F;
-  background-color: rgb(247, 247, 247) ;
+  text-align: center;
+  font-size: 18px;
+  background-color: rgb(236, 236, 236) ;
   padding: 50px;
   line-height: 40px;
   -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
